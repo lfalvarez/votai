@@ -14,8 +14,8 @@ src/
 *.sqlite3
 *.swp
 /static
-*/static/sass/*.css
-*/static/sass/*.css.map
+votai_general_theme/static/votai_sass/sass/*.css
+votai_general_theme/static/votai_sass/sass/*.css.map
 */static/merep_sass/*.css
 */static/merep_sass/*.css.map
 celerybeat-schedule

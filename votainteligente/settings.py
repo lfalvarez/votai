@@ -184,6 +184,7 @@ STATICFILES_FINDERS = [
     'sass_processor.finders.CssFinder',
 ]
 
+SASS_PROCESSOR_ENABLED = True
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
