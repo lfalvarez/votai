@@ -33,5 +33,5 @@ uploads/
 tmp/
 users/
 *.sqlite3
-static/
+./static/
 sass/
