@@ -15,7 +15,7 @@ class Migration(migrations.Migration):
     initial = True
 
     dependencies = [
-        ('candidator', '0005_auto_20200507_2345'),
+        ('candidator', '0004_auto_20150714_1756'),
         ('taggit', '0003_taggeditem_add_unique_index'),
         ('popolo', '0002_update_models_from_upstream'),
     ]
