@@ -1,0 +1,25 @@
+{% extends "elections/election_base.html" %}
+{% load i18n %}
+{% load votainteligente_extras %}
+
+{% block extrajs %}
+{% endblock extrajs %}
+
+{% block title %} - {{candidate}} - {% trans "Preguntas"%}{% endblock title%}
+
+{% block last_breadcrumb %}{{ candidate }}{% endblock last_breadcrumb %}
+
+{% block mainelection %}
+<section id="election">
+	<div>
+		<h3>{% trans "Preguntas para" %} {{ candidate }}</h3>
+	</div>
+
+
+
+	{% for question in questions %}
+	    {% include 'elections/message_in_list.html' with message=question %}
+	{% endfor %}
+
+</section>
+{% endblock mainelection %}

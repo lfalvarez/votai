@@ -1,0 +1,25 @@
+{% extends "django_registration/registration_base.html" %}
+{% load i18n %}
+{% load bootstrap3 %}
+{% load votainteligente_extras %}
+{% load staticfiles %}
+{% block title %}{% trans "Login" %}{% endblock %}
+{% block content %}
+{% url 'auth_password_reset' as auth_pwd_reset_url %}
+	<div class="col-md-12">
+		<div class="panel panel-default">
+			<div class="panel-body">
+				<h3>{% trans 'Bienvenid@ Candidat@:' %}</h3>
+                {% trans "Si no sabes como ingresar:" %}
+                {% include 'backend_candidate/_info_for_candidates.html' %}
+				<form method="post" action="{% url 'login' %}">{% csrf_token %}
+				{% bootstrap_form form %}
+
+				<input type="hidden" name="next" value="{% url 'backend_candidate:home' %}" />
+				<input type="submit" value="{% trans "login" %}"  class="btn btn-default btn-lg btn-block" />
+				</form>
+				<a href="{{auth_pwd_reset_url}}">{% trans "¿Olvidaste tu contraseña?" %}</a>
+			</div>
+		</div>
+	</div>
+{% endblock content %}

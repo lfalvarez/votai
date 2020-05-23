@@ -1,0 +1,36 @@
+{% load votainteligente_extras %}
+{% if proposals %}
+<div class="container">
+    <h2 class="text-center">{% trans "Propuestas con más apoyo de los ciudadanos" %}</h2>
+    {% get_proposals_enabled as proposals_enabled %}
+    {% if proposals_enabled  %}
+    <p class="bajada text-center text-width">{% trans "Mientras más apoyo tenga una propuesta, es más probable que los candidatos asuman un compromiso con ella." %}</p>
+    <div class="text-center">
+      <a class="btn btn-primary" href="{% url 'popular_proposals:propose_wizard_full_without_area' %}">{% trans "Tengo una propuesta" %}</a>
+      <div class="line-space"></div>
+    </div>
+    {% endif %}
+</div>
+<div class="container">
+  <div class="row">
+    <!-- -->
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <div class="row">
+            {% for proposal in proposals %}
+            <div class="col-md-4">
+              {% display_proposal_card proposal %}
+            </div>
+            {% if forloop.counter|divisibleby:3 and not forloop.last%}
+            </div></div><div class="item"><div class="row">
+            {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -->
+  </div>
+</div>
+{% endif %}

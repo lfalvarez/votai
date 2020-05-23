@@ -1,0 +1,16 @@
+{% load votainteligente_extras %}
+Hola {{temporary_data.proposer.get_short_name}}!
+Hemos leido y revisado tu propuesta ciudadana y tenemos los siguientes comentarios:
+
+{% for key, item in comments.items %}{% if item.comments %}
+* Para tu respuesta: {{item.original|popular_proposal_when}}, nuestros comentarios son:
+
+{{ item.comments }}
+
+{% endif %}
+{% endfor %}
+Puedes actualizar tu propuesta en el siguiente link:
+https://{{site.domain}}{% url 'backend_citizen:temporary_data_update' pk=temporary_data.id %}
+Gracias por querer hacer de {{area}} un lugar mejor.
+
+{% mail_signature_txt %}

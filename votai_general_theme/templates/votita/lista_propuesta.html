@@ -1,0 +1,35 @@
+{% extends "votita/base.html" %}
+{% load staticfiles %}
+{% load i18n %}
+{% load thumbnail %}
+{% load bootstrap3 %}
+{% block title %}- Propuestas{% endblock title %}
+
+
+{% block content %}
+<div class="container">
+  <div class="col-md-12 text-center">
+    <h1 class="h-header">{% trans "Propuestas 2017" %}</h1>
+  </div>
+      {% include 'popular_proposal/_lista_propuestas.html' with hidden_search=True popular_proposals=proposals tipo_propuestas="propuestas" hidden_create_proposal_button=True %}
+</div>
+<script>
+$(function(){
+  $('#proposalFilterForm').submit(function() {
+    $(':input', this).each(function() {
+      this.disabled = !($(this).val());
+    });
+  });
+
+  window.onscroll = function (e) {
+    if( document.body.scrollTop >= 600 ) {
+      $('#raiseToTop i').css('display','block');
+    }
+    if( document.body.scrollTop < 600 ) {
+      $('#raiseToTop i').css('display','none');
+    }
+  }
+});
+
+</script>
+{% endblock content %}

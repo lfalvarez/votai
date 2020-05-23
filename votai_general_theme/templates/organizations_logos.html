@@ -1,0 +1,25 @@
+{% load thumbnail %}
+{% load i18n %}
+
+{% if templates|length %}
+<section id="orgs-repo">
+  <div class="container">
+    <div class="row">
+      <h3 class="text-center">{% trans "Organizaciones presentes" %}</h2>
+      <div class="container">
+        {% for template in templates %}
+        <div class="col-md-2">
+          <a href="{{template.get_absolute_url}}">
+          <div class="logo-org-home text-center">
+          {% thumbnail template.logo "100x100" as im %}
+            <img src="{{ im.url }}" width="{{ im.width }}" height="{{ im.height }}" alt="{{template.title}}" title="{{template.title}}">
+            {% endthumbnail %}
+          </div>
+          </a>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}

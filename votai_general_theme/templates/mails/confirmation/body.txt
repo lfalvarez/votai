@@ -1,0 +1,10 @@
+{% load votainteligente_extras %}Hola {{message.author_name}}:
+Te estamos escribiendo desde VotaInteligente.cl porque para que tu mensaje sea procesado
+debemos confirmar que seas una persona.
+
+Por favor haz click en el siguiente link
+
+https://{{site.domain}}{{ message.confirmation.get_absolute_url }}
+
+Muchas gracias.
+{% mail_signature_txt %}

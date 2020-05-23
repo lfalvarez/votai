@@ -1,0 +1,86 @@
+{% extends "elections/election_base.html" %}
+{% load i18n %}
+{% load staticfiles %}
+{% load thumbnail %}
+{% load votainteligente_extras %}
+
+{% block extrajs %}
+{% endblock extrajs %}
+
+{% block tab_profile %}class="active"{% endblock %}
+
+{% block mainelection %}
+{% if user.is_staff %}
+	{% if "elections/extra_info_per_election.html"|template_exists %}
+		{% include 'elections/extra_info_per_election.html' %}
+	{% endif %}
+{% endif %}
+<h1 class="text-center"><div class="small">
+	{% url 'election_view' slug=election.slug as election_detail_url %}
+	{% blocktrans with election_detail_url=election_detail_url position=election.position area=election.area %}
+			Candidatos a</div><a href="{{election_detail_url}}">{{ position }} por {{ area }}
+	{% endblocktrans %}
+	</a></h1>
+<div class="row">
+	<div class="nav-candidator btn-bajada">
+		<nav class="col-md-12">
+			<ul class="list-inline text-center">
+				{% if 'facetoface'|val_navbars and election.uses_face_to_face  %}
+				<li {% block tab_facetoface %}{% endblock %}><a href="{% block url_face_to_face %}{% url 'face_to_face_no_candidate_detail_view' slug=election.slug %}{% endblock url_face_to_face %}" accesskey="f" title="{% trans "Frente a Frente" %} (Alt+f)" class="btn btn-primary"><i class="icon-bolt"></i> {% trans "Frente a Frente" %}</a></li>
+				{% endif %}
+				{% if 'ask'|val_navbars and election.uses_preguntales  %}
+				<li {% block tab_ask %}{% endblock %}><a href="{% url 'ask_detail_view' slug=election.slug %}" accesskey="a" title="{% trans "Pregúntales" %} (Alt+a)" class="btn btn-default"><i class="icon-edit"></i> {% trans "Pregúntales" %}</a></li>
+				{% endif %}
+				{% if 'ranking'|val_navbars and election.uses_ranking %}
+				<li {% block tab_ranking %}{% endblock %}><a href="{% url 'ranking_view' slug=election.slug %}" accesskey="r" title="{% trans "Ranking" %} (Alt+r)" class="btn btn-default"><i class="icon-trophy"></i> {% trans "Ranking" %}</a></li>
+				{% endif %}
+				{% if election.extra_info_title %}
+				<li {% block tab_extrainfo %}{% endblock %}><a href="{% url 'election_extra_info' slug=election.slug %}" class="btn btn-default"><i class="icon-info"></i> {{election.extra_info_title}} </a></li>
+				{% endif %}
+			</ul>
+		</nav>
+	</div>
+</div>
+<div class="line-space"></div>
+<div class="row">
+	<div id="main-election" class="container-candidates">
+		{% for candidate in election.candidates.all %}
+		<div class="col-sm-4 col-md-4">
+			{% if candidate.image %}
+				{% thumbnail candidate.image "300x300" crop="center" as im %}
+				<a href="{{ candidate.get_absolute_url}}"><img src="{{im.url}}" alt="{{candidate.name}}" border="0" class="img-responsive img-circle img-candidato"></a>
+				{% endthumbnail %}
+			{% else %}
+				<a href="{{ candidate.get_absolute_url}}"><img src="{% static 'img/candidate-default.jpg' %}" alt="{{candidate.name}}" border="0" class="img-responsive img-circle img-candidato"></a>
+			{% endif %}
+			<p class="text-center">
+				{% if config.SHOW_RIBBON_IN_CANDIDATE and not candidate.commitments.count%}
+
+				<div class="ribbon label label-danger {% if position == 'concejal' %}ribbon-noimg{% endif %}">{% trans "No ha respondido" %}</div>
+				{% endif %}
+				<a href="{{ candidate.get_absolute_url}}"><h3 class="text-center">{{candidate.name}}</h3></a>
+				<p class="small text-light text-center small-bajada">{% get_personal_data candidate=candidate personal_data='Partido' as partido %}{{partido.value}}</p>
+                {% if candidate.has_won %}
+                <div class="small label-info ranking text-white row text-center">
+                  <div class="ranking-content">
+                    <div class="col-md-2 num col-md-offset-2">{% trans "Electo" %}</div>
+                  </div>
+                </div>
+                {% endif %}
+				{% if user.is_staff %}
+				{% include 'elections/candidates/extra_cards.html' with candidate=candidate %}
+				{% endif %}
+				{% if not candidate.has_answered %}{% no_ha_respondido_twitter_button %}{% endif %}
+			</p>
+
+		</div>
+		{% if forloop.counter|divisibleby:3 %}
+			</div>
+		</div>
+		<div class="row">
+			<div class="container-candidates">
+		{% endif %}
+		{% endfor %}
+	</div>
+</div>
+{% endblock mainelection %}

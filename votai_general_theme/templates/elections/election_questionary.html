@@ -1,0 +1,91 @@
+{% extends "elections/election_base.html" %}
+{% load i18n %}
+{% load thumbnail %}
+{% load votainteligente_extras %}
+{% load staticfiles %}
+
+{% block title %} - {{election}} - {% trans "Cuestionario"%}{% endblock title%}
+
+{% block last_breadcrumb %}{% trans "Cuestionario"%}{% endblock last_breadcrumb %}
+
+{% block tab_questionary %}class="active"{% endblock %}
+
+{% block mainelection %}
+<div id="questionary">
+	<div class="questionary">
+
+		{% for category in election.categories.all %}
+		<div class="panel panel-default">
+			<div class="panel-heading">{{category.name}}</div>
+			<div class="panel-body">
+				{% for topic in category.topics.all %}
+				<div class="question-answer" {% if forloop.counter >= 2 %}style="margin-top:5px;" {% endif %}>
+					<p class="question">
+						{{topic.label}}
+					</p>
+
+					{% for position in topic.positions.all %}
+						{% if position.taken_positions.all|length > 0 %}
+
+						<div class="row hidden-xs hidden-sm">
+							<div class="col-md-5">
+								<ul class="list-inline">
+								{% for taken_position in position.taken_positions.all %}
+									<li>
+									{% with candidate=taken_position.person %}
+                    {% if candidate.image %}
+                        {% thumbnail candidate.image "100x100" crop="center" as im %}
+                        <a href="{{ candidate.get_absolute_url}}"><img src="{{im.url}}" height="100" width="100" alt="{{candidate.name}}" border="0" class="img-responsive" title="{{candidate.name}}"></a>
+                        {% endthumbnail %}
+                    {% else %}
+                        {% thumbnail "img/candidate-default.jpg" "100x100" crop="center" as im %}
+                        <a href="{{ candidate.get_absolute_url}}"><img src="{{im.url}}"  height="100" width="100" alt="{{candidate.name}}" border="0" class="img-responsive" title="{{candidate.name}}"></a>
+                        {% endthumbnail %}
+                    {% endif %}
+										<span>{{candidate.name}}</span>
+									{% endwith %}
+									</li>
+								{% endfor %}
+								</ul>
+							</div>
+							<div class="col-md-7">
+                <i class="icon-quote-left"></i> {{position.label}} <i class="icon-quote-right"></i>
+              </div>
+						</div>
+						{% endif %}
+					<!-- end desktop version-->
+					<!-- mobile version, no image of candidate -->
+					<div class="visible-xs visible-sm">
+						<div >
+							<div>
+								<div>
+									<i class="icon-quote-left"></i> {{position.label}} <i class="icon-quote-right"></i>
+								</div>
+								{% for taken_position in position.taken_positions.all %}
+									{% with candidate=taken_position.person %}
+										{% if forloop.first %}
+											<a href="{{ candidate.get_absolute_url}}">{{candidate.name}}</a>
+										{% elif forloop.last %}
+											{% trans "y" %} <a href="{{ candidate.get_absolute_url}}">{{candidate.name}}</a>
+										{% else %}
+											, <a href="{{ candidate.get_absolute_url}}">{{candidate.name}}</a>
+										{% endif %}
+									{% endwith %}
+								{% endfor %}
+								<hr>
+							</div>
+						</div>
+					</div>
+
+						<!-- end mobile version -->
+					{% endfor %}
+
+				</div>
+				{% endfor %}
+			</div>
+		</div>
+		{% endfor %}
+	</div>
+</div>
+
+{% endblock mainelection %}

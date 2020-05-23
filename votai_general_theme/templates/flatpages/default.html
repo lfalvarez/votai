@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% load markdown_deux_tags %}
+{% load flatpages %}
+
+
+{% block content %}
+
+<div>
+  <div class="row">
+    <h1>{{ flatpage.title }}</h1>
+  </div>
+  <div class="row">
+    <div class="col-md-1">
+    </div>
+    <div class="col-md-10">
+      <div class="panel panel-default pasos">
+        <div class="panel-body">
+          {{ flatpage.content|markdown }}
+        </div>
+      </div>
+    </div>
+  </div>
+  {% include 'disqus.html' %}
+</div>
+{% endblock content %}

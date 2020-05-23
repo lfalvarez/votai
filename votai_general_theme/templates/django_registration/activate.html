@@ -1,0 +1,15 @@
+{% extends "django_registration/registration_base.html" %}
+{% load i18n %}
+{% load bootstrap3 %}
+{% block title %}{% if account %}{% trans "Activation complete" %}{% else %}{% trans "Activation problem" %}{% endif %}{% endblock %}
+{% block content %}
+{% url 'login' as auth_login_url %}
+{% if account %}
+{% blocktrans with acoount=account %}
+Gracias {{ account }}, tu activación está completa!
+Ahora puedes <a href='{{ auth_login_url }}'>entrar</a> usando tu usuario y password.
+{% endblocktrans %}
+{% else %}
+{% blocktrans %}Uhh!!Ohhh!! &ndash; parece que tu clave de activación es inválida. Por favor revisa la url nuevamente.{% endblocktrans %}
+{% endif %}
+{% endblock %}

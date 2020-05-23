@@ -1,0 +1,30 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.18.4]
+    method: GET
+    uri: https://graph.facebook.com/v2.5/https://www.facebook.com/circoroto?fields=about%2Cpicture%2Cevents%2Cname&access_token=FieraEsLaMejorAmigaDeTodos
+  response:
+    body: {string: !!python/unicode '{"error":{"message":"Invalid OAuth access token
+        data.","type":"OAuthException","code":190,"fbtrace_id":"DFqsZkikkfV"}}'}
+    headers:
+      access-control-allow-origin: ['*']
+      cache-control: [no-store]
+      connection: [keep-alive]
+      content-length: ['118']
+      content-type: [application/json; charset=UTF-8]
+      date: ['Fri, 09 Mar 2018 17:53:56 GMT']
+      expires: ['Sat, 01 Jan 2000 00:00:00 GMT']
+      pragma: [no-cache]
+      strict-transport-security: [max-age=15552000; preload]
+      www-authenticate: [OAuth "Facebook Platform" "invalid_token" "Invalid OAuth
+          access token data."]
+      x-fb-debug: [FORleMmNU+HGABLC08BrFaFAF20iqjfHA0D1D8V3QBPgA/BTambK3XRlazlEzv0ZuYBHDT4HUGSBuwfGJfeJ2Q==]
+      x-fb-rev: ['3709588']
+      x-fb-trace-id: [DFqsZkikkfV]
+    status: {code: 400, message: Bad Request}
+version: 1

@@ -1,0 +1,28 @@
+{% extends 'popular_proposal/steps/base_steps.html' %}
+{% load i18n %}
+
+{% block tips %}
+  <p class="step-title">{% trans "¿Cómo se define un problema?" %}</p>
+  <ul class="list-unstyled">
+    <li><span class="number">a</span> {% trans "Un problema es una situación que, de ser solucionada, mejoraría considerablemente la vida de las personas que habitan en Chile o al menos parte de ellas." %}</li>
+    <li><span class="number">b</span> {% trans "Recuerda que hay más posibilidades de que un candidato o una candidata tomen en cuenta tu propuesta si el problema afecta a muchas personas." %}</li>
+    <li><span class="number">c</span> {% trans "Elige la categoría que mejor represente al problema descrito para que la gente interesada en el tema la pueda encontrar." %} </li>
+
+  </p>
+ <script type="text/javascript">
+$(function(){
+    $("[name$='clasification']").change(function(event){
+    	$('#ayuda_desplegada').remove();
+    	var select = $(event.target);
+    	var value = select.val();
+    	var help = $('.ayuda_comuna .ayuda.' + value);
+    	if(help.length) {
+	    	var element_to_be_inserted = '<div id="ayuda_desplegada">' + help.html() + "</div>";
+	    	$('#selector-categorias').append(element_to_be_inserted);
+        $('#collapseCategorias').collapse()
+    	}
+    })
+})
+</script>
+
+{% endblock tips %}

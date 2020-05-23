@@ -1,0 +1,24 @@
+{% extends "popular_proposal/wizard/form_step_base.html" %}
+
+{% load static %}
+{% load i18n %}
+{% load bootstrap3 %}
+{% load votainteligente_extras%}
+{% block form_content %}
+
+            {% csrf_token %}
+        {{ wizard.management_form }}
+        {% for field in form %}
+            <section>
+              {% bootstrap_label field.label %}
+
+              {% long_text_tag field %}
+              {% if field.help_text %}
+                <p><b>{% trans "Ejemplo" %}: </b>{{field.help_text}}</p>
+              {% endif %}
+                {% bootstrap_field field show_label=False show_help=False%}
+            </section>
+        {% endfor %}
+
+
+{% endblock form_content %}

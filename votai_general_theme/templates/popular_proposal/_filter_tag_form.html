@@ -1,0 +1,15 @@
+{% load votainteligente_extras %}
+<div class="container-fluid filter">
+  <div class="container">
+<!-- filtros por tema -->
+    <div id="category-container" class="container">
+      <ul class="list-inline">
+        {% proposals_topic_choices as classifications %}
+        {% for k,v in classifications %}
+            <li><a href="{% url 'popular_proposals:home' %}?clasification={{k}}" onclick="ga('send','event','filterby-{{k}}','click')" class="badge">{{v}}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
+<!-- filtros por tema fin -->

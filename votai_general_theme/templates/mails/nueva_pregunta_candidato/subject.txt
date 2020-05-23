@@ -1,0 +1,1 @@
+Nueva pregunta pública: {{message.subject}}

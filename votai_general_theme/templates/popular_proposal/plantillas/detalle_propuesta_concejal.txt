@@ -1,0 +1,20 @@
+{% load markdown_deux_tags %}
+{% load votainteligente_extras %}
+Estimada/o candidata/o:
+
+Las/os ciudadanas y ciudadanos de {{popular_proposal.area}} han hecho una nueva propuesta para su comuna titulada: {{popular_proposal.title}}.
+
+{% if url %}
+Para conocer los detalles de la propuesta te invitamos a hacer click en el siguiente link:
+http://votainteligente.cl{{url}}
+{% endif %}
+
+Si quieres contactarte con los autores de la propuesta para hacer algún comentario u obtener más información, escríbeles a {{popular_proposal.proposer.email}}.
+
+
+Si tienes alguna duda o quieres saber más sobre VotaInteligente.cl puedes responder a este correo.
+
+Las vecinas y vecinos de {{popular_proposal.area}} están esperando para que des tu opinión sobre esta propuesta.
+
+Desde ya muchas gracias,
+El equipo de VotaInteligente a nombre de {{popular_proposal.proposer}}.

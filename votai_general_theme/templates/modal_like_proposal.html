@@ -1,0 +1,51 @@
+{% load i18n %}
+{% load markdown_deux_tags %}
+{% url 'popular_proposals:like_a_proposal' pk=proposal.id as like_this_proposal_url %}
+<div class="modal fade modal-proposal" id="{{modalId}}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <form method="POST" id="form_{{modalId}}" action="{{like_this_proposal_url}}" role="form">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">{{ title }}</h4>
+        </div>
+        <div class="modal-body">
+          {% if user.profile.is_organization %}
+{% markdown %}
+{% include 'terms_and_conditions/org_supporting_a_proposal.md' with organization=user proposer=proposal.proposer proposal=proposal.title %}
+{% endmarkdown %}
+          {% else %}
+            <p>
+              {% blocktrans with proposal=proposal.title %}
+                ¿Deseas apoyar la propuesta <b>{{proposal}}</b>?
+              {% endblocktrans %}
+            </p>
+            <p>{% trans "Al apoyar esta propuesta aceptas que VotaInteligente te notifique vía correo electrónico cuando un candidato decida apoyar esta propuesta." %}</p>
+          {% endif %}
+
+          {% csrf_token %}
+          {% if next %}
+            <input type="hidden" name="next" value="{{next_url}}" />
+          {% endif %}
+          {% if user.profile.is_organization %}
+            <div class="form-group">
+              <label for="message_input_{{modalId}}" class="col-2 col-form-label">{% blocktrans with proposer=proposal.proposer %}
+                ¿Quieres enviarle algún mensaje a {{proposer}}?
+              {% endblocktrans %}</label>
+
+              <textarea class="form-control" name="message" type="text" id="message_input_{{modalId}}" placeholder="{% trans "Nos encanta lo que hacen ..." %}"> </textarea>
+            </div>
+          {% endif %}
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-info">{% trans 'Apoyar' %} <i class="fa fa-heart" aria-hidden="true"></i></button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+<script data-cfasync="false" >
+  $(function(){
+    $('#form_{{modalId}}').ajaxForm({'dataType': 'script'});
+  });
+</script>

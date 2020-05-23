@@ -1,0 +1,88 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% load i18n %}
+{% load thumbnail %}
+{% load bootstrap3 %}
+{% load ogp_tags %}
+{% load votainteligente_extras %}
+{% load cache %}
+
+{% block title %}- {% blocktrans with area=area.name %}
+  Congresistas para el {{area}}
+{% endblocktrans %}{% endblock title %}
+{% block description %}{% blocktrans with area=area.name %}Conoce tus congrsistas para el {{area}}{% endblocktrans %}{% endblock description %}
+{% block extrajs %}
+$(function(){
+    $('.loadFromUrl').on('show.bs.modal', function (event) {
+      var anchor = $(event.relatedTarget) // Button that triggered the modal
+      var modal = $(this)
+      var body = modal.find('.modal-body');
+      body.load(anchor.data('url'));
+    })
+    $('[data-toggle="tooltip"]').tooltip();
+});
+{% endblock extrajs %}
+
+{% block navbar_background %}yellow{% endblock navbar_background %}
+{% block content_container %}{% endblock content_container %}
+
+{% block ogp %}
+  {% render_ogp area %}
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@ciudadanoi">
+  <meta name="twitter:creator" content="@ciudadanoi">
+  <meta name="twitter:title" content="{% blocktrans with area=area.name %}¡Ingresa a votainteligente.cl para conocer los candidatos de {{area}}!{% endblocktrans %}">
+  <meta name="twitter:description" content="{% blocktrans with area=area.name %}Conoce a los candidatos a Senador y Diputado por {{area}}{% endblocktrans %}">
+  <meta name="twitter:image" content="https://{% url_domain %}{% static 'img/logo_vi_og.jpg' %}">
+{% endblock ogp %}
+
+{% block keywords %}{% blocktrans with area=area.name %},{{area}},parlamentarios de {{area}},diputados {{area}},senadores {{area}},{% endblocktrans %}{% endblock keywords %}
+
+{% block content %}
+<!-- <div id="buscador-area" class="container-fluid navbar-fixed-top" style="top: 55px; padding: 15px 0px; background-color: #233346; display: none;">
+  <div class="container">
+    {% include '_election_search_form.html' %}
+    <script>
+      $(function(){
+        window.onscroll = function (e) {
+          if( document.documentElement.scrollTop >= 100 ) {
+            $('#buscador-area').fadeIn("slow");
+          }
+          if( document.documentElement.scrollTop < 100 ) {
+            $('#buscador-area').fadeOut("slow");
+          }
+        }
+      });
+    </script>
+  </div>
+</div> -->
+<div class="container">
+  <ol class="breadcrumb">
+    <li><a href="{% url 'home' %}" onclick="ga('send','event','breadcrumb-home-area','click')"><i class="fa fa-home"></i></a></li>
+    <li><a href="{% url 'know_your_candidates' %}" onclick="ga('send','event','breadcrumb-candidaturas-area','click')">{% trans "Congresistas" %}</a></li>
+    <li class="active">{{area.name}}</li>
+  <h1>{% blocktrans with area=area.name %}Congresistas {{area}}{% endblocktrans %}</h1>
+  </ol>
+  {% for p in area.parents %}
+  {% with p.elections.first as election %}
+    {% if election %}
+      <span class="label label-primary"><a href="#election-area-{{p.id}}">{{p}}</a></span>
+    {% endif %}
+    {% endwith %}
+{% endfor %}
+</div>
+
+
+
+{% for p in area.parents %}
+  {% with p.elections.first as election %}
+    {% if election %}
+      {% display_election_card election %}
+    {% endif %}
+    {% endwith %}
+{% endfor %}
+
+{% endblock content %}
+
+{% block extrafooter %}
+{% endblock extrafooter %}

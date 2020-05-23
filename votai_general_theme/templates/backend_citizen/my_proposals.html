@@ -1,0 +1,15 @@
+{% extends "backend_citizen/base.html" %}
+{% load staticfiles %}
+{% load votainteligente_extras %}
+{% load i18n %}
+{% load thumbnail %}
+{% load bootstrap3 %}
+
+{% block title %}
+- {% trans "Backend Ciudadano - Propuestas" %}
+{% endblock title %}
+
+
+{% block main_content %}
+{% include 'backend_citizen/_proposals-table.html' %}
+{% endblock main_content %}

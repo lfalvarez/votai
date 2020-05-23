@@ -1,0 +1,113 @@
+<!--  primary data -->
+<div class="org-background" style="background-image:url({{background_image}});">
+  <div class="container">
+    <div class="row landing-org">
+      {{#if logo_small}}
+      <div class="col-xs-6 col-sm-6 col-md-6 hidden-xs logo-org">
+        <img src="{{logo_small}}" alt="{{organization}}" width="150px">
+      </div>
+      {{/if}}
+      <div class="col-xs-6 col-sm-6 col-md-6 social-networks">
+        <ul class="list-inline pull-right" style="position:relative; top:125px;">
+        {{#if org_url}}
+          <li><a href="{{org_url}}" target="_blank"><i class="fa fa-globe fa-2x visible-xs" aria-label="Website"></i></a></li>
+        {{/if}}
+        {{#if facebook}}
+          <li><a href="{{facebook}}" target="_blank"><i class="fa fa-facebook fa-2x visible-xs" aria-label="Facebook"></i></a></li>
+        {{/if}}
+        {{#if twitter}}
+          <li><a href="{{twitter}}" target="_blank"><i class="fa fa-twitter fa-2x visible-xs" aria-label="Twitter"></i></a></li>
+        {{/if}}
+        {{#if instagram}}
+          <li><a href="{{instagram}}" target="_blank"><i class="fa fa-instagram fa-2x visible-xs" aria-label="Instagram"></i></a></li>
+        {{/if}}
+        {{#if rss_url}}
+          <li><a href="{{rss_url}}" target="_blank"><i class="fa fa-rss fa-2x visible-xs" aria-label="RSS"></i></a></li>
+        {{/if}}
+        {{#if is_owner}}
+          <li><a href="{{update_url}}" class="hidden-xs btn btn-success btn-xs">Edita esta página</a></li>
+        {{/if}}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- about -->
+<div class="" style="background-color:{{primary_color}}; color:{{secondary_color}}; padding-bottom:10px;">
+  <div class="container org-info">
+    <h2 style="color:{{secondary_color}};">{{# if title}}
+      {{title}}
+    {{else}}
+      {{organization}}
+    {{/if}}</h2>
+    <p>{{sub_title}}</p>
+  </div>
+  <div class="container org-rrss">
+    <ul class="list-inline hidden-xs" style="padding-top:15px;">
+    {{#if org_url}}
+      <li><a href="{{org_url}}" target="_blank"><i class="fa fa-globe"></i> Website</a></li>
+    {{/if}}
+    {{#if facebook}}
+      <li><a href="{{facebook}}" target="_blank"><i class="fa fa-facebook"></i> Facebook</a></li>
+    {{/if}}
+    {{#if twitter}}
+      <li><a href="{{twitter}}" target="_blank"><i class="fa fa-twitter"></i> Twitter</a></li>
+    {{/if}}
+    {{#if instagram}}
+      <li><a href="{{instagram}}" target="_blank"><i class="fa fa-instagram"></i> Instagram</a></li>
+    {{/if}}
+    {{#if rss_url}}
+      <li><a href="{{rss_url}}" target="_blank"><i class="fa fa-rss"></i> RSS</a></li>
+    {{/if}}
+    </ul>
+  </div>
+</div>
+
+<a name="propuestas"></a>
+<div id="difunde">
+  <div id="btn-difunde" class="container text-center">
+    <p>Ayúdanos a difundir nuestras propuestas entre las candidaturas <a href="{{ayuranos}}" class="btn btn-blue" onclick="ga('send','event','ayudanos-org','click')">aquí</a></p>
+  </div>
+</div>
+<!--  extra pages -->
+<div class="container" style="padding-top:10px; padding-bottom:10px;">
+  <ul class="nav nav-pills list-inline" role="tablist">
+    <li role="presentation" class="active"><a href="#propuestas" aria-controls="propuestas" role="tab" data-toggle="tab" class="small">Proponemos y apoyamos</a></li>
+    {{#each extra_pages}}
+    <li role="presentation"><a href="#{{slug}}" aria-controls="{{slug}}" role="tab" data-toggle="tab" class="small">{{title}}</a></li>
+    {{/each}}
+  </ul>
+
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="propuestas">
+        <h3 class="page-header">Proponemos</h3>
+        {{#if proposals}}
+        <div class="row">
+          {{#each proposals }}
+            <div class="col-md-4">
+              {{{proposal_card_renderer}}}
+            </div>
+          {{/each}}
+        </div>
+      {{else}}
+        {{#if is_owner}}
+        <p>Comienza a generar tus propuestas en el siguiente <a href="{{create_proposal_url}}">enlace</a></p>
+        {{/if}}
+      {{/if}}
+      <h3 class="page-header">Apoyamos</h3>
+      {{#if sponsorships}}
+      <div class="row">
+        {{#each sponsorships }}
+          <div class="col-md-4">
+            {{{card}}}
+          </div>
+        {{/each}}
+      </div>
+    {{/if}}
+    </div>
+    {{#each extra_pages}}
+    <div role="tabpanel" class="tab-pane" id="{{slug}}">{{{content}}}
+    </div>
+    {{/each}}
+  </div>
+</div>

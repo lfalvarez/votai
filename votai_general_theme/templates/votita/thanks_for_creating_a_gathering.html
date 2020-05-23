@@ -1,0 +1,21 @@
+{% extends "votita/base.html" %}
+{% load bootstrap3 %}
+
+{% block title %}- Gracias{% endblock title %}
+
+{% block content %}
+<section id="thanks-gathering">
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h2 class="text-center">¡Gracias!</h1>
+        <p class="text-center">Las propuestas de {{gathering.name}} han sido ingresadas</p>
+    </div>
+    <div class="text-center">
+      <p>Te invitamos a conocer las propuestas que han realizado otros niños, niñas y adolescentes</p>
+      <a class="btn btn-yellow" href="{% url 'votita:list_proposals' %}" onclick="ga('send', 'event', 'menu-ver-propuestas', 'click')">Ver todas las propuestas</a>
+    </div>
+  </div>
+</div>
+</section>
+{% endblock content %}

@@ -1,0 +1,13 @@
+
+{% extends "base.html" %}
+{% load markdown_deux_tags %}
+
+{% block content %}
+
+<div>
+  <div class="contenedorDestacado fondo-blanco">
+	<h2>{{ flatpage.title }}</h2>
+	{{ flatpage.content|markdown }}
+  </div>
+</div>
+{% endblock content %}

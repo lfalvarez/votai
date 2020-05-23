@@ -1,0 +1,87 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% load i18n %}
+{% load thumbnail %}
+{% load votainteligente_extras %}
+{% load cache %}
+
+{% block title %}- {% trans "Ayúdanos" %}{% endblock title %}
+
+{% block navbar %}
+{% endblock navbar %}
+
+{% block content %}
+{% cache 60 ayudanos %}
+<div class="container">
+  <h2>{% trans "Elije uno de estos tuits y ayúdanos!" %}</h2>
+
+  <div class="table-responsive">
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Texto</th>
+          <th>Tuitea</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>{{ 'text'|website_twitter }} #{{ 'hashtags'|website_twitter }} {%trans "https://votainteligente.cl" %}</td>
+          <td>{% include 'twitter_poking_button.html' %}</td>
+        </tr>
+        <tr>
+          <td>{{config.AYUDANOS_TEXTO1}} #{{ config.WEBSITE_TWITTER_HASHTAG }} {%trans "https://votainteligente.cl" %}</td>
+          <td>{% include 'twitter_poking_button.html' with texto=config.AYUDANOS_TEXTO1 button_text='Tuitea' hashtag="PorQuiénVotar" %}</td>
+        </tr>
+        <tr>
+          <td>{{config.AYUDANOS_TEXTO2}} #{{ config.WEBSITE_TWITTER_HASHTAG }} {%trans "https://votainteligente.cl" %}</td>
+          <td>{% include 'twitter_poking_button.html' with texto=config.AYUDANOS_TEXTO2 button_text='Tuitea'  %}</td>
+        </tr>
+        <tr>
+          <td>{{config.AYUDANOS_TEXTO3}} #{{ config.WEBSITE_TWITTER_HASHTAG }} {%trans "https://votainteligente.cl" %}</td>
+          <td>{% include 'twitter_poking_button.html' with texto=config.AYUDANOS_TEXTO3 button_text='Tuitea'  %}</td>
+        </tr>
+        <tr>
+          <td>{{config.AYUDANOS_TEXTO4}} #{{ config.WEBSITE_TWITTER_HASHTAG }} {%trans "https://votainteligente.cl" %}</td>
+          <td>{% include 'twitter_poking_button.html' with texto=config.AYUDANOS_TEXTO4 button_text='Tuitea' %}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Si no encuentras a tu candidata/o acá, quizás no tenemos su twitter</h2>
+  <p>Pero puedes ayudarnos a <a href="#">completar los que nos faltan</a></p>
+
+  <h2>¡Aún nos faltan estos candidatos Tuiteale!</h2>
+  <div class="table-responsive">
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Twiteale!</th>
+          <th>Candidato</th>
+          <th>Pacto</th>
+          <th>Partido</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for candidate in candidates %}
+      <tr class="">
+        <td>
+          {% if candidate.twitter %}
+            {% include 'twitter_poking_button.html' with texto=config.AYUDANOS_TEXTO_CANDIDATOS twitter=candidate.twitter.value button_text=config.AYUDANOS_TEXTO_CANDIDATOS %}
+          {% else %}
+            {% include 'twitter_poking_button.html' with url=url via=twitter_org texto=config.AYUDANOS_ORGANIZACIONES twitter="@A_TU_CANDIDATO" button_text=config.AYUDANOS_ORGANIZACIONES %}
+          {% endif %}
+          </td>
+        <td><a href="{{ candidate.get_absolute_url }}">{{ candidate }}</a></td>
+        <td><a href="{{ candidate.area.get_absolute_url }}">{{ candidate.election.area }}</a></td>
+        <td>{% get_personal_data candidate=candidate personal_data='Pacto' as pacto %}{{pacto.value}}</td>
+        <td>{% get_personal_data candidate=candidate personal_data='Partido' as partido %}{{partido.value}}</td>
+      </tr>
+      	{% endfor %}
+      </tbody>
+    </table>
+   </div>
+  </div>
+</div>
+{% endcache %}
+{% endblock content %}

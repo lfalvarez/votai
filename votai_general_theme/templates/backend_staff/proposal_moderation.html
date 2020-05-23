@@ -1,0 +1,20 @@
+{% load i18n %}
+{% load bootstrap3 %}
+   {{object}}
+
+   <button id="acceptModeration_{{object.id}}" onclick='accept_moderation("{% url 'backend_staff:accept_proposal' pk=object.pk %}")'type="button" class="btn btn-primary">{% trans 'Sí, acepto' %} <i class="fa fa-thumbs-up"></i>
+</button>
+<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+ {% trans 'No, la rechazaré!' %} <i class="fa fa-thumbs-down"></i>
+</button>
+<div class="collapse" id="collapseExample">
+  <div class="well">
+  <form role="form" action="{% url 'backend_staff:reject_proposal' pk=object.pk %}" method="post">
+    {% csrf_token %}
+    {% bootstrap_form form %}
+    <div class="form-actions">
+        <button type="submit" class="btn btn-primary">{% trans 'Rechaza esta propuesta ciudadana'%}</button>
+    </div>
+</form>
+  </div>
+</div>

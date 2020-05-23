@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load bootstrap3 %}
+{% load votainteligente_extras%}
+{% load static %}
+
+{% block head %}
+{{ wizard.form.media }}
+{% endblock %}
+
+{% block content %}
+<div class="wizard">
+  <div class="text-width">
+    {% if area %}
+    <p class="text-light">{% blocktrans with area=area.name %}
+      Creando una propuesta para {{ area }}
+    {% endblocktrans %}</p>
+    {% endif %}
+    <div class="row">
+    {% for i in wizard.steps.count|times %}
+    <div class="col-md-3 col-sm-3 col-xs-3">
+        <div class="paso {% if i < wizard.steps.step1 %}paso_completado{% endif %}">{% blocktrans with current_step=i|add:1 total_steps=wizard.steps.count %}
+          Paso {{current_step}} de {{total_steps}}
+        {% endblocktrans %}</div>
+    </div>
+    {% endfor %}
+    </div>
+
+<form role="form" action="" method="post">
+            {% csrf_token %}
+        {{ wizard.management_form }}
+                <section>
+                    {% if form.explanation_template %}
+                        <p class="long_text">{% include form.explanation_template %}</p>
+                    {% endif %}
+                </section>
+                {% for field in form %}
+                    <section>
+                        {% bootstrap_field field show_help=false show_label=false %}
+                    </section>
+                {% endfor %}
+    {% include 'popular_proposal/wizard/_previous_buttons.html' with wizard=wizard %}
+    <div class="pull-right">
+        <button class="btn btn-success pull-right" type="submit" value="{% trans "Submit" %}">{% trans "Siguiente" %}<img src="{% static 'img/arrow.svg' %}"></button>
+    </div>
+    <div class="line-space"></div>
+    <div class="line-space"></div>
+
+
+</form>
+</div>
+</div>
+
+{% endblock content %}

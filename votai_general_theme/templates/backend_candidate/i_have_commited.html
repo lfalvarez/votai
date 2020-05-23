@@ -1,0 +1,56 @@
+{% extends "backend_base.html" %}
+{% load staticfiles %}
+{% load i18n %}
+{% load thumbnail %}
+{% load bootstrap3 %}
+
+{% block extrajs %}
+{% endblock extrajs %}
+
+{% block main_content %}
+<div class="contenedorDestacado fondo-blanco">
+
+  	{% if commitments %}
+  		<h2>{% trans "Tus compromisos" %}</h2>
+      	<table class="table">
+        <tr>
+            <td>{% trans 'Propuesta' %}</td>
+            <td>{% trans 'Tu compromiso' %}</td>
+        </tr>
+	    {% for commitment in commitments %}
+	    <tr>
+            <td>
+            	<a href="{{commitment.proposal.get_absolute_url}}">{{commitment.proposal.title}}</a>
+
+            </td>
+            <td>
+            	<a href="{{commitment.get_absolute_url}}">
+            		{% if commitment.commited %}
+            			<span class="label label-warning">
+            				{% trans "Te comprometiste" %}
+            			</span>
+            		{% else %}
+            			<span class="label label-danger">
+            				{% trans "No te comprometiste" %}
+            			</span>
+            		{% endif %}
+            	</a>
+            </td>
+        </tr>
+        {% empty %}
+	    {% endfor %}
+	    </table>
+	{% else %}
+  {% with user.candidacies.first as candidacy %}
+  {% url 'backend_candidate:proposals_for_me' slug=election.slug candidate_slug=candidacy.candidate.slug  as url %}
+	{% blocktrans with url=url area_name=election.area.name %}
+
+	Aún no tienes compromisos, sin embargo puedes revisar <a href="{{url}}">La sección de propuestas para mi</a> para aceptar aquellas que quieres.
+
+	{% endblocktrans %}
+  {% endwith %}
+    {% endif %}
+
+
+</div>
+{% endblock main_content %}

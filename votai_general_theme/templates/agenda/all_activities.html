@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% load i18n %}
+{% load thumbnail %}
+{% load bootstrap3 %}
+
+{% block content %}
+
+	<a  class="pull-right btn btn-default"
+                      href="{% url 'backend_citizen:all_my_activities' %}">
+					  {% if user.is_authenticated %}
+                      {% trans "Agrega una actividad a la agenda." %}
+					  {% else %}
+					  {% trans "Para adicionar um evento você precisa ter um perfil na plataforma. clique aqui!"%}
+					  {% endif %}
+                  </a>
+
+	<h2 class="page-header">{% trans "Actividades" %}</h2>
+	{% include 'agenda/_activity_list.html' with activities=activities %}
+{% endblock content %}

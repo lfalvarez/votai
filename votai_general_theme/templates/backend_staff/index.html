@@ -1,0 +1,102 @@
+{% extends "backend_base.html" %}
+{% load staticfiles %}
+{% load votainteligente_extras %}
+{% load i18n %}
+{% load thumbnail %}
+{% load bootstrap3 %}
+
+{% block content %}
+{% include 'modal.html' with modalId='proposalComments' title='Actualiza los comentarios' %}
+{% include 'modal.html' with modalId='moderateProposal' title='¿Deseas aceptar la Propuesta Popular?' %}
+
+<div>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script type="text/javascript" src="{% static 'js/jquery.gridAccordion.min.js' %}"></script>
+  <!-- Featured Elections  -->
+  <div class="contenedorDestacado fondo-blanco">
+    <h1>{% blocktrans %}¡Terrible de bienvenid@!{% endblocktrans %}</h1>
+    <h2>{% blocktrans %}¡Eres parte de nuestro equipo!{% endblocktrans %}</h2>
+    <p>{% trans "Aquí podrás ver y moderar los elementos de VotaInteligente " %}</p>
+
+    <table class="table table-striped">
+      <thead>
+        <tr>
+            <th>{% trans "ID" %}</th>
+            <th>{% trans "Area" %}</th>
+            <th>{% trans "Area" %}</th>
+            <th>Problema</th>
+            <th>{% trans "+Info" %}</th>
+            <th>{% trans "Organización" %}</th>
+            <th>{% trans "Usuario" %}</th>
+            <th>{% trans "Comentarios del usuario" %}</th>
+            <th>{% trans "Acciones" %}</th>
+        </tr>
+      </thead>
+    {% for proposal in proposals.all %}
+        {% if proposal.status != 'accepted' %}
+        <tr>
+            <td>{{proposal.id}}</td>
+            <td>{{proposal.area}}</td>
+            <td>{{proposal.created}}</td>
+            <td>{{proposal.data.problem|truncatechars:100}}{% include 'popular_proposal/_show_proposal_comments.html' with comments=proposal.comments.problem %}
+            </td>
+            <td>
+                <button type="button" class="btn btn-lg btn-danger masInfo" data-toggle="popover" title="+ Info" data-content="{% get_questions_and_descriptions proposal %}">?</button>
+
+            </td>
+            <td>
+                {{proposal.data.organization}}
+                {% include 'popular_proposal/_show_proposal_comments.html' with comments=proposal.comments.organization %}
+            </td>
+            <td>
+                {{proposal.proposer}}
+                {% if proposal.proposer|is_candidate %} (candidato){% endif %}
+            </td>
+            <td>{% if proposal.overall_comments %}<i class="fa fa-exclamation-triangle" aria-hidden="true"></i>{% endif %}
+                {{proposal.overall_comments}}
+                </td>
+            <td>
+                {% if proposal.status == 'in_our_side' %}
+                <a data-toggle="modal" data-target="#proposalComments"
+                    data-url="{% url 'backend_staff:popular_proposal_comments' pk=proposal.id %}">
+                    <i class="fa fa-pencil-square-o" title="Editame!"></i>
+                </a>
+                <a data-toggle="modal" data-target="#moderateProposal"
+                    data-url="{% url 'backend_staff:moderate_proposal' pk=proposal.id %}">
+                    <i class="fa fa-gavel" title='{% trans "Moderame!" %}'></i>
+                </a>
+                {% elif proposal.status == 'in_their_side' %}
+                <span class="label label-default">{% trans 'Esperando al usuario' %}</span>
+                {% elif proposal.status == 'accepted' %}
+                <span class="label label-success">{% trans '¡Aceptada!' %}</span>
+                {% elif proposal.status == 'in_their_side' %}
+                <span class="label label-danger">{% trans '¡Rechazada!' %}</span>
+                {% endif %}
+            </td>
+        </tr>
+        {% endif %}
+    {% endfor %}
+    </table>
+  </div>
+
+</div>
+<script>
+$(function(){
+    $('.masInfo').popover({
+        'html': true,
+        'delay': { "show": 500, "hide": 100 }
+    });
+})
+function accept_moderation(url){
+      $.post(url, {
+        'csrfmiddlewaretoken': "{{ csrf_token }}"
+        }, function(){
+            location.reload();
+        })
+}
+</script>
+{% endblock content %}
+
+{% block extrafooter %}
+{% endblock extrafooter %}

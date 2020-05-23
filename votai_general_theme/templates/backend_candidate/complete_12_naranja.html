@@ -1,0 +1,23 @@
+{% extends "backend_base.html" %}
+{% load staticfiles %}
+{% load i18n %}
+{% load thumbnail %}
+{% load bootstrap3 %}
+
+{% block extrajs %}
+{% endblock extrajs %}
+
+{% block main_content %}
+
+	{% if  candidate.has_answered %}
+		<div class="alert alert-info">
+			{% trans "Ya completaste la 1/2 naranja pero puedes modificar tus opiniones =)" %}
+		</div>
+	{% endif %}
+    <form method="post" action="{% url 'backend_candidate:complete_12_naranja' slug=election.slug candidate_slug=candidate.slug %}">{% csrf_token %}
+	{% bootstrap_form form %}
+
+	<input type="submit" value="{% trans "Enviar" %}"  class="btn btn-default" />
+	</form>
+
+{% endblock main_content %}

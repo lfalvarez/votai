@@ -1,0 +1,61 @@
+{% load i18n %}
+{% load markdown_deux_tags %}
+{% load staticfiles %}
+<div class="col-md-4 activity"  data-toggle="modal" data-target="#activity-modal-{{activity.id}}">
+    <div class="body"
+    {%if activity.background_image %}
+    style="background-image:url('{{activity.background_image.url}}');"
+    {% else %}
+    style="background-image: url({% static 'img/activity_background.png' %});"
+    {% endif %}
+    >
+        <div class="text-center title-and-location">
+            <div class="title">
+                <p>{{activity.description}}</p>
+            </div>
+            <div class='location'>
+                {% if activity.location %}
+              	 <p><i class="fa fa-crosshairs"></i> {{activity.location}}</p>
+                 {% else %}
+                 <p><i class="fas fa-phone-volume"></i> {{activity.contact_info}}</p>
+                {% endif %}
+
+            </div>
+        </div>
+        <div class="text-left date">
+        <p><i class="fa fa-calendar"></i> {{activity.date}}</p>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div id="activity-modal-{{activity.id}}" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">{{activity.description}}</h4>
+      </div>
+      <div class="modal-body">
+          {% if activity.background_image %}
+          <img src="{{activity.background_image.url}}" class='img-responsive inner-activity-image'>
+          {% endif %}
+
+        {% if activity.url %}<a href="{{activity.url}}" target="_blank">
+            <p><i class="fa fa-link"></i> {% trans 'Más información' %}</p>
+        </a>{% endif %}
+        {% if activity.location %}
+        <p><i class="fa fa-crosshairs"></i> {{activity.location}}</p>
+        {% endif %}
+        <p><i class="fas fa-phone-volume"></i> {{activity.contact_info}}</p>
+        <p>{{ activity.long_description|markdown }}</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">{% trans "Cerrar" %}</button>
+      </div>
+    </div>
+
+  </div>
+</div>

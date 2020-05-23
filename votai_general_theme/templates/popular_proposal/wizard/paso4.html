@@ -1,0 +1,45 @@
+{% extends "popular_proposal/wizard/form_step_base.html" %}
+
+{% load static %}
+{% load i18n %}
+{% load bootstrap3 %}
+{% load votainteligente_extras%}
+{% block form_content %}
+            {% csrf_token %}
+        {{ wizard.management_form }}
+            <section>
+              {% bootstrap_label form.solution_at_the_end.label %}
+
+              {% long_text_tag form.solution_at_the_end %}
+              {% if form.solution_at_the_end.help_text %}
+                <p><b>{% trans "Ejemplo" %}: </b>{{form.solution_at_the_end.help_text}}</p>
+              {% endif %}
+                {% bootstrap_field form.solution_at_the_end show_label=False show_help=False%}
+            </section>
+            <section>
+              {% bootstrap_label form.when.label %}
+
+              {% long_text_tag form.when %}
+              {% if form.when.help_text %}
+                <p><b>{% trans "Ejemplo" %}: </b>{{form.when.help_text}}</p>
+              {% endif %}
+                {% bootstrap_field form.when show_label=False show_help=False%}
+            </section>
+
+            <div class="panel panel-default extra-info">
+              <div class="panel-heading extra-info">
+                <p class="small text-center">{% trans "Resumen cortísimo" %}</p>
+              </div>
+              <div class="panel-body">
+                    {% bootstrap_label form.one_liner.label %}
+
+                    {% long_text_tag form.one_liner %}
+                    {% if form.one_liner.help_text %}
+                      <p><b>{% trans "Ejemplo" %}: </b>{{form.one_liner.help_text}}</p>
+                    {% endif %}
+                      {% bootstrap_field form.one_liner show_label=False show_help=False%}
+              </div>
+            </div>
+
+
+{% endblock form_content %}

@@ -1,0 +1,35 @@
+{% extends "votita/base.html" %}
+{% load i18n %}
+{% load bootstrap3 %}
+{% load votainteligente_extras %}
+{% load staticfiles %}
+{% block title %}- Ingreso/Registro{% endblock %}
+{% block extra_css %}
+	<link rel="stylesheet" href="{% static 'css/bootstrap-social.css' %}">
+{% endblock extra_css %}
+{% block content %}
+
+<script type="text/javascript">
+	$( document ).ready(function() {
+	    $('.dropdown-menu li').on("click", function(){
+		  txt_selected = $(this).text();
+		  $('.nav li.dropdown a')[0].innerHTML = txt_selected
+		})
+	});
+</script>
+
+<div class="container">
+<h1 class="text-center h-header">Ingresa</h1>
+
+	<div class="col-md-8 col-md-offset-2">
+	{% block login_tabs %}
+		{% url "votita:index" as next %}
+
+	  {% include '_login_tabs.html' with next=next hide_organization_tab=True text_userregister="Registro" %}
+	{% endblock login_tabs %}
+
+	</div>
+</div>
+
+
+{% endblock content %}

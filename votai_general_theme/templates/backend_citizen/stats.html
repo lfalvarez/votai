@@ -1,0 +1,29 @@
+{% extends "backend_citizen/base.html" %} {% load staticfiles %} {% load votainteligente_extras %} {% load i18n %} {% load thumbnail %} {% load bootstrap3 %} {% block main_content %}
+
+<h2 class="page-header"><i class="fas fa-chart-bar"></i> {% trans "Las estadísticas sobre tus propuestas" %}</h2>
+
+<div class="table-responsive">
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>{% trans 'Título propuesta' %}</th>
+      <th>{% trans 'Candidatos comprometidos' %}</th>
+      <th>{% trans 'Apoyos' %}</th>
+      <th>{% trans 'Visitas totales' %}</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for id, stat in stats.items %}
+    <tr class="proposal_{{support.id}}">
+      <td><a href="{{ stat.proposal.get_absolute_url }}">{{stat.proposal.title}}</a></td>
+      <td>{{stat.pronouncing.count}}</td>
+      <td>{{stat.proposal.likers.count}}</td>
+      <td>{{stat.proposal.visitors}}
+        <!-- Modal -->
+      </td>
+    </tr>
+    {% empty %} {% endfor %}
+  </tbody>
+</table>
+</div>
+{% endblock main_content %}

@@ -1,0 +1,7695 @@
+- model: popolo.area
+  pk: 405
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.300308+00:00
+    updated_at: 2020-05-22 00:48:27.300308+00:00
+    name: Arica y Parinacota
+    identifier: ''
+    classification: region
+    parent: null
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 406
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.306377+00:00
+    updated_at: 2020-05-22 00:48:27.306377+00:00
+    name: I Arica y Parinacota
+    identifier: ''
+    classification: circunscripcion
+    parent: 405
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 407
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.310286+00:00
+    updated_at: 2020-05-22 00:48:27.310286+00:00
+    name: '1'
+    identifier: ''
+    classification: distrito
+    parent: 406
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 408
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.313992+00:00
+    updated_at: 2020-05-22 00:48:27.313992+00:00
+    name: Arica
+    identifier: ''
+    classification: comuna
+    parent: 407
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 409
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.320719+00:00
+    updated_at: 2020-05-22 00:48:27.320719+00:00
+    name: Camarones
+    identifier: ''
+    classification: comuna
+    parent: 407
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 410
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.327592+00:00
+    updated_at: 2020-05-22 00:48:27.327592+00:00
+    name: General Lagos
+    identifier: ''
+    classification: comuna
+    parent: 407
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 411
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.334105+00:00
+    updated_at: 2020-05-22 00:48:27.334105+00:00
+    name: Putre
+    identifier: ''
+    classification: comuna
+    parent: 407
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 412
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.337499+00:00
+    updated_at: 2020-05-22 00:48:27.337499+00:00
+    name: "Tarapac\xE1"
+    identifier: ''
+    classification: region
+    parent: null
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 413
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.340910+00:00
+    updated_at: 2020-05-22 00:48:27.340910+00:00
+    name: "II Tarapac\xE1"
+    identifier: ''
+    classification: circunscripcion
+    parent: 412
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 414
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.344483+00:00
+    updated_at: 2020-05-22 00:48:27.344483+00:00
+    name: '2'
+    identifier: ''
+    classification: distrito
+    parent: 413
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 415
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.348082+00:00
+    updated_at: 2020-05-22 00:48:27.348082+00:00
+    name: Alto Hospicio
+    identifier: ''
+    classification: comuna
+    parent: 414
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 416
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.354758+00:00
+    updated_at: 2020-05-22 00:48:27.354758+00:00
+    name: "Cami\xF1a"
+    identifier: ''
+    classification: comuna
+    parent: 414
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 417
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.361361+00:00
+    updated_at: 2020-05-22 00:48:27.361361+00:00
+    name: Colchane
+    identifier: ''
+    classification: comuna
+    parent: 414
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 418
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.368178+00:00
+    updated_at: 2020-05-22 00:48:27.368178+00:00
+    name: Huara
+    identifier: ''
+    classification: comuna
+    parent: 414
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 419
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.374969+00:00
+    updated_at: 2020-05-22 00:48:27.374969+00:00
+    name: Iquique
+    identifier: ''
+    classification: comuna
+    parent: 414
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 420
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.382572+00:00
+    updated_at: 2020-05-22 00:48:27.382572+00:00
+    name: Pica
+    identifier: ''
+    classification: comuna
+    parent: 414
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 421
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.390042+00:00
+    updated_at: 2020-05-22 00:48:27.390042+00:00
+    name: Pozo Almonte
+    identifier: ''
+    classification: comuna
+    parent: 414
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 422
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.393900+00:00
+    updated_at: 2020-05-22 00:48:27.393900+00:00
+    name: Antofagasta
+    identifier: ''
+    classification: region
+    parent: null
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 423
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.397868+00:00
+    updated_at: 2020-05-22 00:48:27.397868+00:00
+    name: III Antofagasta
+    identifier: ''
+    classification: circunscripcion
+    parent: 422
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 424
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.401886+00:00
+    updated_at: 2020-05-22 00:48:27.401886+00:00
+    name: '3'
+    identifier: ''
+    classification: distrito
+    parent: 423
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 425
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.405828+00:00
+    updated_at: 2020-05-22 00:48:27.405828+00:00
+    name: Calama
+    identifier: ''
+    classification: comuna
+    parent: 424
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 426
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.412686+00:00
+    updated_at: 2020-05-22 00:48:27.412686+00:00
+    name: "Mar\xEDa Elena"
+    identifier: ''
+    classification: comuna
+    parent: 424
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 427
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.419567+00:00
+    updated_at: 2020-05-22 00:48:27.419567+00:00
+    name: "Ollag\xFCe"
+    identifier: ''
+    classification: comuna
+    parent: 424
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 428
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.426527+00:00
+    updated_at: 2020-05-22 00:48:27.426527+00:00
+    name: San Pedro de Atacama
+    identifier: ''
+    classification: comuna
+    parent: 424
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 429
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.432814+00:00
+    updated_at: 2020-05-22 00:48:27.432814+00:00
+    name: Tocopilla
+    identifier: ''
+    classification: comuna
+    parent: 424
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 430
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.438968+00:00
+    updated_at: 2020-05-22 00:48:27.438968+00:00
+    name: Antofagasta
+    identifier: ''
+    classification: comuna
+    parent: 424
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 431
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.445941+00:00
+    updated_at: 2020-05-22 00:48:27.445941+00:00
+    name: Mejillones
+    identifier: ''
+    classification: comuna
+    parent: 424
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 432
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.451913+00:00
+    updated_at: 2020-05-22 00:48:27.451913+00:00
+    name: Sierra Gorda
+    identifier: ''
+    classification: comuna
+    parent: 424
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 433
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.458196+00:00
+    updated_at: 2020-05-22 00:48:27.458196+00:00
+    name: Taltal
+    identifier: ''
+    classification: comuna
+    parent: 424
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 434
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.461465+00:00
+    updated_at: 2020-05-22 00:48:27.461465+00:00
+    name: Atacama
+    identifier: ''
+    classification: region
+    parent: null
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 435
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.465092+00:00
+    updated_at: 2020-05-22 00:48:27.465092+00:00
+    name: IV Atacama
+    identifier: ''
+    classification: circunscripcion
+    parent: 434
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 436
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.468944+00:00
+    updated_at: 2020-05-22 00:48:27.468944+00:00
+    name: '4'
+    identifier: ''
+    classification: distrito
+    parent: 435
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 437
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.473125+00:00
+    updated_at: 2020-05-22 00:48:27.473125+00:00
+    name: "Cha\xF1aral"
+    identifier: ''
+    classification: comuna
+    parent: 436
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 438
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.479668+00:00
+    updated_at: 2020-05-22 00:48:27.479668+00:00
+    name: "Copiap\xF3"
+    identifier: ''
+    classification: comuna
+    parent: 436
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 439
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.485921+00:00
+    updated_at: 2020-05-22 00:48:27.485921+00:00
+    name: Diego de Almagro
+    identifier: ''
+    classification: comuna
+    parent: 436
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 440
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.493510+00:00
+    updated_at: 2020-05-22 00:48:27.493510+00:00
+    name: Alto del Carmen
+    identifier: ''
+    classification: comuna
+    parent: 436
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 441
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.500554+00:00
+    updated_at: 2020-05-22 00:48:27.500554+00:00
+    name: Caldera
+    identifier: ''
+    classification: comuna
+    parent: 436
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 442
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.507403+00:00
+    updated_at: 2020-05-22 00:48:27.507403+00:00
+    name: Huasco
+    identifier: ''
+    classification: comuna
+    parent: 436
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 443
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.515118+00:00
+    updated_at: 2020-05-22 00:48:27.515118+00:00
+    name: Freirina
+    identifier: ''
+    classification: comuna
+    parent: 436
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 444
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.522777+00:00
+    updated_at: 2020-05-22 00:48:27.522777+00:00
+    name: Tierra Amarilla
+    identifier: ''
+    classification: comuna
+    parent: 436
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 445
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.529885+00:00
+    updated_at: 2020-05-22 00:48:27.529885+00:00
+    name: Vallenar
+    identifier: ''
+    classification: comuna
+    parent: 436
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 446
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.534622+00:00
+    updated_at: 2020-05-22 00:48:27.534622+00:00
+    name: Coquimbo
+    identifier: ''
+    classification: region
+    parent: null
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 447
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.538976+00:00
+    updated_at: 2020-05-22 00:48:27.538976+00:00
+    name: V Coquimbo
+    identifier: ''
+    classification: circunscripcion
+    parent: 446
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 448
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.543522+00:00
+    updated_at: 2020-05-22 00:48:27.543522+00:00
+    name: '5'
+    identifier: ''
+    classification: distrito
+    parent: 447
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 449
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.548210+00:00
+    updated_at: 2020-05-22 00:48:27.548210+00:00
+    name: Andacollo
+    identifier: ''
+    classification: comuna
+    parent: 448
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 450
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.556599+00:00
+    updated_at: 2020-05-22 00:48:27.556599+00:00
+    name: La Higuera
+    identifier: ''
+    classification: comuna
+    parent: 448
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 451
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.564666+00:00
+    updated_at: 2020-05-22 00:48:27.564666+00:00
+    name: La Serena
+    identifier: ''
+    classification: comuna
+    parent: 448
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 452
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.573679+00:00
+    updated_at: 2020-05-22 00:48:27.573679+00:00
+    name: Paihuano
+    identifier: ''
+    classification: comuna
+    parent: 448
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 453
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.582694+00:00
+    updated_at: 2020-05-22 00:48:27.582694+00:00
+    name: "Vicu\xF1a"
+    identifier: ''
+    classification: comuna
+    parent: 448
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 454
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.592016+00:00
+    updated_at: 2020-05-22 00:48:27.592016+00:00
+    name: Coquimbo
+    identifier: ''
+    classification: comuna
+    parent: 448
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 455
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.603803+00:00
+    updated_at: 2020-05-22 00:48:27.603803+00:00
+    name: Ovalle
+    identifier: ''
+    classification: comuna
+    parent: 448
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 456
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.618891+00:00
+    updated_at: 2020-05-22 00:48:27.618891+00:00
+    name: "R\xEDo Hurtado"
+    identifier: ''
+    classification: comuna
+    parent: 448
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 457
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.627063+00:00
+    updated_at: 2020-05-22 00:48:27.627063+00:00
+    name: Canela
+    identifier: ''
+    classification: comuna
+    parent: 448
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 458
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.635009+00:00
+    updated_at: 2020-05-22 00:48:27.635009+00:00
+    name: "Combarbal\xE1"
+    identifier: ''
+    classification: comuna
+    parent: 448
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 459
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.642545+00:00
+    updated_at: 2020-05-22 00:48:27.642545+00:00
+    name: Illapel
+    identifier: ''
+    classification: comuna
+    parent: 448
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 460
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.650411+00:00
+    updated_at: 2020-05-22 00:48:27.650411+00:00
+    name: Los Vilos
+    identifier: ''
+    classification: comuna
+    parent: 448
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 461
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.657890+00:00
+    updated_at: 2020-05-22 00:48:27.657890+00:00
+    name: Monte Patria
+    identifier: ''
+    classification: comuna
+    parent: 448
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 462
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.665710+00:00
+    updated_at: 2020-05-22 00:48:27.665710+00:00
+    name: Punitaqui
+    identifier: ''
+    classification: comuna
+    parent: 448
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 463
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.673348+00:00
+    updated_at: 2020-05-22 00:48:27.673348+00:00
+    name: Salamanca
+    identifier: ''
+    classification: comuna
+    parent: 448
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 464
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.677377+00:00
+    updated_at: 2020-05-22 00:48:27.677377+00:00
+    name: "Valpara\xEDso"
+    identifier: ''
+    classification: region
+    parent: null
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 465
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.681514+00:00
+    updated_at: 2020-05-22 00:48:27.681514+00:00
+    name: "VI Valpara\xEDso"
+    identifier: ''
+    classification: circunscripcion
+    parent: 464
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 466
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.685698+00:00
+    updated_at: 2020-05-22 00:48:27.685698+00:00
+    name: '6'
+    identifier: ''
+    classification: distrito
+    parent: 465
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 467
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.689803+00:00
+    updated_at: 2020-05-22 00:48:27.689803+00:00
+    name: Cabildo
+    identifier: ''
+    classification: comuna
+    parent: 466
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 468
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.696812+00:00
+    updated_at: 2020-05-22 00:48:27.696812+00:00
+    name: La Calera
+    identifier: ''
+    classification: comuna
+    parent: 466
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 469
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.703478+00:00
+    updated_at: 2020-05-22 00:48:27.703478+00:00
+    name: Hijuelas
+    identifier: ''
+    classification: comuna
+    parent: 466
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 470
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.710472+00:00
+    updated_at: 2020-05-22 00:48:27.710472+00:00
+    name: La Cruz
+    identifier: ''
+    classification: comuna
+    parent: 466
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 471
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.717384+00:00
+    updated_at: 2020-05-22 00:48:27.717384+00:00
+    name: La Ligua
+    identifier: ''
+    classification: comuna
+    parent: 466
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 472
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.724294+00:00
+    updated_at: 2020-05-22 00:48:27.724294+00:00
+    name: Nogales
+    identifier: ''
+    classification: comuna
+    parent: 466
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 473
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.731850+00:00
+    updated_at: 2020-05-22 00:48:27.731850+00:00
+    name: Papudo
+    identifier: ''
+    classification: comuna
+    parent: 466
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 474
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.738922+00:00
+    updated_at: 2020-05-22 00:48:27.738922+00:00
+    name: Petorca
+    identifier: ''
+    classification: comuna
+    parent: 466
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 475
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.745774+00:00
+    updated_at: 2020-05-22 00:48:27.745774+00:00
+    name: "Puchuncav\xED"
+    identifier: ''
+    classification: comuna
+    parent: 466
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 476
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.752598+00:00
+    updated_at: 2020-05-22 00:48:27.752598+00:00
+    name: Quillota
+    identifier: ''
+    classification: comuna
+    parent: 466
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 477
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.762101+00:00
+    updated_at: 2020-05-22 00:48:27.762101+00:00
+    name: Quintero
+    identifier: ''
+    classification: comuna
+    parent: 466
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 478
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.770642+00:00
+    updated_at: 2020-05-22 00:48:27.770642+00:00
+    name: Zapallar
+    identifier: ''
+    classification: comuna
+    parent: 466
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 479
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.778318+00:00
+    updated_at: 2020-05-22 00:48:27.778318+00:00
+    name: Calle Larga
+    identifier: ''
+    classification: comuna
+    parent: 466
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 480
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.785860+00:00
+    updated_at: 2020-05-22 00:48:27.785860+00:00
+    name: Catemu
+    identifier: ''
+    classification: comuna
+    parent: 466
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 481
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.793146+00:00
+    updated_at: 2020-05-22 00:48:27.793146+00:00
+    name: Llaillay
+    identifier: ''
+    classification: comuna
+    parent: 466
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 482
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.800328+00:00
+    updated_at: 2020-05-22 00:48:27.800328+00:00
+    name: Los Andes
+    identifier: ''
+    classification: comuna
+    parent: 466
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 483
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.806799+00:00
+    updated_at: 2020-05-22 00:48:27.806799+00:00
+    name: Panquehue
+    identifier: ''
+    classification: comuna
+    parent: 466
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 484
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.813412+00:00
+    updated_at: 2020-05-22 00:48:27.813412+00:00
+    name: Putaendo
+    identifier: ''
+    classification: comuna
+    parent: 466
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 485
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.820551+00:00
+    updated_at: 2020-05-22 00:48:27.820551+00:00
+    name: Rinconada
+    identifier: ''
+    classification: comuna
+    parent: 466
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 486
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.827161+00:00
+    updated_at: 2020-05-22 00:48:27.827161+00:00
+    name: San Esteban
+    identifier: ''
+    classification: comuna
+    parent: 466
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 487
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.833861+00:00
+    updated_at: 2020-05-22 00:48:27.833861+00:00
+    name: San Felipe
+    identifier: ''
+    classification: comuna
+    parent: 466
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 488
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.841062+00:00
+    updated_at: 2020-05-22 00:48:27.841062+00:00
+    name: "Santa Mar\xEDa"
+    identifier: ''
+    classification: comuna
+    parent: 466
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 489
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.847791+00:00
+    updated_at: 2020-05-22 00:48:27.847791+00:00
+    name: Limache
+    identifier: ''
+    classification: comuna
+    parent: 466
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 490
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.854857+00:00
+    updated_at: 2020-05-22 00:48:27.854857+00:00
+    name: "Olmu\xE9"
+    identifier: ''
+    classification: comuna
+    parent: 466
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 491
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.862625+00:00
+    updated_at: 2020-05-22 00:48:27.862625+00:00
+    name: "Quilpu\xE9"
+    identifier: ''
+    classification: comuna
+    parent: 466
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 492
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.869991+00:00
+    updated_at: 2020-05-22 00:48:27.869991+00:00
+    name: Villa Alemana
+    identifier: ''
+    classification: comuna
+    parent: 466
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 493
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.876127+00:00
+    updated_at: 2020-05-22 00:48:27.876127+00:00
+    name: '7'
+    identifier: ''
+    classification: distrito
+    parent: 465
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 494
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.880150+00:00
+    updated_at: 2020-05-22 00:48:27.880150+00:00
+    name: Isla de Pascua
+    identifier: ''
+    classification: comuna
+    parent: 493
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 495
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.888008+00:00
+    updated_at: 2020-05-22 00:48:27.888008+00:00
+    name: "Juan Fern\xE1ndez"
+    identifier: ''
+    classification: comuna
+    parent: 493
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 496
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.894936+00:00
+    updated_at: 2020-05-22 00:48:27.894936+00:00
+    name: "Valpara\xEDso"
+    identifier: ''
+    classification: comuna
+    parent: 493
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 497
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.903160+00:00
+    updated_at: 2020-05-22 00:48:27.903160+00:00
+    name: "Conc\xF3n"
+    identifier: ''
+    classification: comuna
+    parent: 493
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 498
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.910204+00:00
+    updated_at: 2020-05-22 00:48:27.910204+00:00
+    name: "Vi\xF1a del Mar"
+    identifier: ''
+    classification: comuna
+    parent: 493
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 499
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.917305+00:00
+    updated_at: 2020-05-22 00:48:27.917305+00:00
+    name: Algarrobo
+    identifier: ''
+    classification: comuna
+    parent: 493
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 500
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.924248+00:00
+    updated_at: 2020-05-22 00:48:27.924248+00:00
+    name: Cartagena
+    identifier: ''
+    classification: comuna
+    parent: 493
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 501
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.930726+00:00
+    updated_at: 2020-05-22 00:48:27.930726+00:00
+    name: Casablanca
+    identifier: ''
+    classification: comuna
+    parent: 493
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 502
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.936825+00:00
+    updated_at: 2020-05-22 00:48:27.936825+00:00
+    name: El Quisco
+    identifier: ''
+    classification: comuna
+    parent: 493
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 503
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.943136+00:00
+    updated_at: 2020-05-22 00:48:27.943136+00:00
+    name: El Tabo
+    identifier: ''
+    classification: comuna
+    parent: 493
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 504
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.950208+00:00
+    updated_at: 2020-05-22 00:48:27.950208+00:00
+    name: San Antonio
+    identifier: ''
+    classification: comuna
+    parent: 493
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 505
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.957269+00:00
+    updated_at: 2020-05-22 00:48:27.957269+00:00
+    name: Santo Domingo
+    identifier: ''
+    classification: comuna
+    parent: 493
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 506
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.961142+00:00
+    updated_at: 2020-05-22 00:48:27.961142+00:00
+    name: Metropolitanade Santiago
+    identifier: ''
+    classification: region
+    parent: null
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 507
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.965027+00:00
+    updated_at: 2020-05-22 00:48:27.965027+00:00
+    name: VII Metropolitana
+    identifier: ''
+    classification: circunscripcion
+    parent: 506
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 508
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.969007+00:00
+    updated_at: 2020-05-22 00:48:27.969007+00:00
+    name: '8'
+    identifier: ''
+    classification: distrito
+    parent: 507
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 509
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.972953+00:00
+    updated_at: 2020-05-22 00:48:27.972953+00:00
+    name: Colina
+    identifier: ''
+    classification: comuna
+    parent: 508
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 510
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.980298+00:00
+    updated_at: 2020-05-22 00:48:27.980298+00:00
+    name: Lampa
+    identifier: ''
+    classification: comuna
+    parent: 508
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 511
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.986512+00:00
+    updated_at: 2020-05-22 00:48:27.986512+00:00
+    name: Quilicura
+    identifier: ''
+    classification: comuna
+    parent: 508
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 512
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.992255+00:00
+    updated_at: 2020-05-22 00:48:27.992255+00:00
+    name: Pudahuel
+    identifier: ''
+    classification: comuna
+    parent: 508
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 513
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:27.998416+00:00
+    updated_at: 2020-05-22 00:48:27.998416+00:00
+    name: Tiltil
+    identifier: ''
+    classification: comuna
+    parent: 508
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 514
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.004707+00:00
+    updated_at: 2020-05-22 00:48:28.004707+00:00
+    name: Cerrillos
+    identifier: ''
+    classification: comuna
+    parent: 508
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 515
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.010808+00:00
+    updated_at: 2020-05-22 00:48:28.010808+00:00
+    name: "Estaci\xF3n Central"
+    identifier: ''
+    classification: comuna
+    parent: 508
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 516
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.016992+00:00
+    updated_at: 2020-05-22 00:48:28.016992+00:00
+    name: "Maip\xFA"
+    identifier: ''
+    classification: comuna
+    parent: 508
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 517
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.022519+00:00
+    updated_at: 2020-05-22 00:48:28.022519+00:00
+    name: '9'
+    identifier: ''
+    classification: distrito
+    parent: 507
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 518
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.025965+00:00
+    updated_at: 2020-05-22 00:48:28.025965+00:00
+    name: "Conchal\xED"
+    identifier: ''
+    classification: comuna
+    parent: 517
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 519
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.032095+00:00
+    updated_at: 2020-05-22 00:48:28.032095+00:00
+    name: Huechuraba
+    identifier: ''
+    classification: comuna
+    parent: 517
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 520
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.039078+00:00
+    updated_at: 2020-05-22 00:48:28.039078+00:00
+    name: Renca
+    identifier: ''
+    classification: comuna
+    parent: 517
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 521
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.045977+00:00
+    updated_at: 2020-05-22 00:48:28.045977+00:00
+    name: Cerro Navia
+    identifier: ''
+    classification: comuna
+    parent: 517
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 522
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.053069+00:00
+    updated_at: 2020-05-22 00:48:28.053069+00:00
+    name: Lo Prado
+    identifier: ''
+    classification: comuna
+    parent: 517
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 523
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.060143+00:00
+    updated_at: 2020-05-22 00:48:28.060143+00:00
+    name: Quinta Normal
+    identifier: ''
+    classification: comuna
+    parent: 517
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 524
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.067029+00:00
+    updated_at: 2020-05-22 00:48:28.067029+00:00
+    name: Independencia
+    identifier: ''
+    classification: comuna
+    parent: 517
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 525
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.073783+00:00
+    updated_at: 2020-05-22 00:48:28.073783+00:00
+    name: Recoleta
+    identifier: ''
+    classification: comuna
+    parent: 517
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 526
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.079555+00:00
+    updated_at: 2020-05-22 00:48:28.079555+00:00
+    name: '10'
+    identifier: ''
+    classification: distrito
+    parent: 507
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 527
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.083496+00:00
+    updated_at: 2020-05-22 00:48:28.083496+00:00
+    name: Santiago
+    identifier: ''
+    classification: comuna
+    parent: 526
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 528
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.090371+00:00
+    updated_at: 2020-05-22 00:48:28.090371+00:00
+    name: "\xD1u\xF1oa"
+    identifier: ''
+    classification: comuna
+    parent: 526
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 529
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.097062+00:00
+    updated_at: 2020-05-22 00:48:28.097062+00:00
+    name: Providencia
+    identifier: ''
+    classification: comuna
+    parent: 526
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 530
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.104331+00:00
+    updated_at: 2020-05-22 00:48:28.104331+00:00
+    name: La Granja
+    identifier: ''
+    classification: comuna
+    parent: 526
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 531
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.111847+00:00
+    updated_at: 2020-05-22 00:48:28.111847+00:00
+    name: Macul
+    identifier: ''
+    classification: comuna
+    parent: 526
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 532
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.118771+00:00
+    updated_at: 2020-05-22 00:48:28.118771+00:00
+    name: "San Joaqu\xEDn"
+    identifier: ''
+    classification: comuna
+    parent: 526
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 533
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.124506+00:00
+    updated_at: 2020-05-22 00:48:28.124506+00:00
+    name: '11'
+    identifier: ''
+    classification: distrito
+    parent: 507
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 534
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.127979+00:00
+    updated_at: 2020-05-22 00:48:28.127979+00:00
+    name: Las Condes
+    identifier: ''
+    classification: comuna
+    parent: 533
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 535
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.133932+00:00
+    updated_at: 2020-05-22 00:48:28.133932+00:00
+    name: Lo Barnechea
+    identifier: ''
+    classification: comuna
+    parent: 533
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 536
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.139922+00:00
+    updated_at: 2020-05-22 00:48:28.139922+00:00
+    name: Vitacura
+    identifier: ''
+    classification: comuna
+    parent: 533
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 537
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.145792+00:00
+    updated_at: 2020-05-22 00:48:28.145792+00:00
+    name: La Reina
+    identifier: ''
+    classification: comuna
+    parent: 533
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 538
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.151694+00:00
+    updated_at: 2020-05-22 00:48:28.151694+00:00
+    name: "Pe\xF1alol\xE9n"
+    identifier: ''
+    classification: comuna
+    parent: 533
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 539
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.158458+00:00
+    updated_at: 2020-05-22 00:48:28.158458+00:00
+    name: '12'
+    identifier: ''
+    classification: distrito
+    parent: 507
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 540
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.163464+00:00
+    updated_at: 2020-05-22 00:48:28.163464+00:00
+    name: La Florida
+    identifier: ''
+    classification: comuna
+    parent: 539
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 541
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.170741+00:00
+    updated_at: 2020-05-22 00:48:28.170741+00:00
+    name: Puente Alto
+    identifier: ''
+    classification: comuna
+    parent: 539
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 542
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.178195+00:00
+    updated_at: 2020-05-22 00:48:28.178195+00:00
+    name: La Pintana
+    identifier: ''
+    classification: comuna
+    parent: 539
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 543
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.185678+00:00
+    updated_at: 2020-05-22 00:48:28.185678+00:00
+    name: Pirque
+    identifier: ''
+    classification: comuna
+    parent: 539
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 544
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.192824+00:00
+    updated_at: 2020-05-22 00:48:28.192824+00:00
+    name: "San Jos\xE9 de Maipo"
+    identifier: ''
+    classification: comuna
+    parent: 539
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 545
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.198286+00:00
+    updated_at: 2020-05-22 00:48:28.198286+00:00
+    name: '13'
+    identifier: ''
+    classification: distrito
+    parent: 507
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 546
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.202178+00:00
+    updated_at: 2020-05-22 00:48:28.202178+00:00
+    name: El Bosque
+    identifier: ''
+    classification: comuna
+    parent: 545
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 547
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.208722+00:00
+    updated_at: 2020-05-22 00:48:28.208722+00:00
+    name: La Cisterna
+    identifier: ''
+    classification: comuna
+    parent: 545
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 548
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.215475+00:00
+    updated_at: 2020-05-22 00:48:28.215475+00:00
+    name: "San Ram\xF3n"
+    identifier: ''
+    classification: comuna
+    parent: 545
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 549
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.222170+00:00
+    updated_at: 2020-05-22 00:48:28.222170+00:00
+    name: Lo Espejo
+    identifier: ''
+    classification: comuna
+    parent: 545
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 550
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.229202+00:00
+    updated_at: 2020-05-22 00:48:28.229202+00:00
+    name: Pedro Aguirre Cerda
+    identifier: ''
+    classification: comuna
+    parent: 545
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 551
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.236257+00:00
+    updated_at: 2020-05-22 00:48:28.236257+00:00
+    name: San Miguel
+    identifier: ''
+    classification: comuna
+    parent: 545
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 552
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.242172+00:00
+    updated_at: 2020-05-22 00:48:28.242172+00:00
+    name: '14'
+    identifier: ''
+    classification: distrito
+    parent: 507
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 553
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.246041+00:00
+    updated_at: 2020-05-22 00:48:28.246041+00:00
+    name: Buin
+    identifier: ''
+    classification: comuna
+    parent: 552
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 554
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.253126+00:00
+    updated_at: 2020-05-22 00:48:28.253126+00:00
+    name: Calera de Tango
+    identifier: ''
+    classification: comuna
+    parent: 552
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 555
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.260985+00:00
+    updated_at: 2020-05-22 00:48:28.260985+00:00
+    name: Paine
+    identifier: ''
+    classification: comuna
+    parent: 552
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 556
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.270445+00:00
+    updated_at: 2020-05-22 00:48:28.270445+00:00
+    name: San Bernardo
+    identifier: ''
+    classification: comuna
+    parent: 552
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 557
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.278190+00:00
+    updated_at: 2020-05-22 00:48:28.278190+00:00
+    name: "Alhu\xE9"
+    identifier: ''
+    classification: comuna
+    parent: 552
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 558
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.285654+00:00
+    updated_at: 2020-05-22 00:48:28.285654+00:00
+    name: "Curacav\xED"
+    identifier: ''
+    classification: comuna
+    parent: 552
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 559
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.293056+00:00
+    updated_at: 2020-05-22 00:48:28.293056+00:00
+    name: El Monte
+    identifier: ''
+    classification: comuna
+    parent: 552
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 560
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.300478+00:00
+    updated_at: 2020-05-22 00:48:28.300478+00:00
+    name: Isla de Maipo
+    identifier: ''
+    classification: comuna
+    parent: 552
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 561
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.307147+00:00
+    updated_at: 2020-05-22 00:48:28.307147+00:00
+    name: "Mar\xEDa Pinto"
+    identifier: ''
+    classification: comuna
+    parent: 552
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 562
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.313460+00:00
+    updated_at: 2020-05-22 00:48:28.313460+00:00
+    name: Melipilla
+    identifier: ''
+    classification: comuna
+    parent: 552
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 563
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.319460+00:00
+    updated_at: 2020-05-22 00:48:28.319460+00:00
+    name: Padre Hurtado
+    identifier: ''
+    classification: comuna
+    parent: 552
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 564
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.325576+00:00
+    updated_at: 2020-05-22 00:48:28.325576+00:00
+    name: "Pe\xF1aflor"
+    identifier: ''
+    classification: comuna
+    parent: 552
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 565
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.331759+00:00
+    updated_at: 2020-05-22 00:48:28.331759+00:00
+    name: San Pedro
+    identifier: ''
+    classification: comuna
+    parent: 552
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 566
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.338679+00:00
+    updated_at: 2020-05-22 00:48:28.338679+00:00
+    name: Talagante
+    identifier: ''
+    classification: comuna
+    parent: 552
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 567
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.342439+00:00
+    updated_at: 2020-05-22 00:48:28.342439+00:00
+    name: O'Higgins
+    identifier: ''
+    classification: region
+    parent: null
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 568
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.346233+00:00
+    updated_at: 2020-05-22 00:48:28.346233+00:00
+    name: VIII O'Higgins
+    identifier: ''
+    classification: circunscripcion
+    parent: 567
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 569
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.350121+00:00
+    updated_at: 2020-05-22 00:48:28.350121+00:00
+    name: '15'
+    identifier: ''
+    classification: distrito
+    parent: 568
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 570
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.353881+00:00
+    updated_at: 2020-05-22 00:48:28.353881+00:00
+    name: Rancagua
+    identifier: ''
+    classification: comuna
+    parent: 569
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 571
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.360033+00:00
+    updated_at: 2020-05-22 00:48:28.360033+00:00
+    name: Codegua
+    identifier: ''
+    classification: comuna
+    parent: 569
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 572
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.366220+00:00
+    updated_at: 2020-05-22 00:48:28.366220+00:00
+    name: "Co\xEDnco"
+    identifier: ''
+    classification: comuna
+    parent: 569
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 573
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.372303+00:00
+    updated_at: 2020-05-22 00:48:28.372303+00:00
+    name: Coltauco
+    identifier: ''
+    classification: comuna
+    parent: 569
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 574
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.378331+00:00
+    updated_at: 2020-05-22 00:48:28.378331+00:00
+    name: "Do\xF1ihue"
+    identifier: ''
+    classification: comuna
+    parent: 569
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 575
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.384495+00:00
+    updated_at: 2020-05-22 00:48:28.384495+00:00
+    name: Graneros
+    identifier: ''
+    classification: comuna
+    parent: 569
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 576
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.390514+00:00
+    updated_at: 2020-05-22 00:48:28.390514+00:00
+    name: "Machal\xED"
+    identifier: ''
+    classification: comuna
+    parent: 569
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 577
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.396730+00:00
+    updated_at: 2020-05-22 00:48:28.396730+00:00
+    name: Malloa
+    identifier: ''
+    classification: comuna
+    parent: 569
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 578
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.403079+00:00
+    updated_at: 2020-05-22 00:48:28.403079+00:00
+    name: Mostazal
+    identifier: ''
+    classification: comuna
+    parent: 569
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 579
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.409573+00:00
+    updated_at: 2020-05-22 00:48:28.409573+00:00
+    name: Olivar
+    identifier: ''
+    classification: comuna
+    parent: 569
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 580
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.416664+00:00
+    updated_at: 2020-05-22 00:48:28.416664+00:00
+    name: Quinta de Tilcoco
+    identifier: ''
+    classification: comuna
+    parent: 569
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 581
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.423652+00:00
+    updated_at: 2020-05-22 00:48:28.423652+00:00
+    name: Rengo
+    identifier: ''
+    classification: comuna
+    parent: 569
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 582
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.432946+00:00
+    updated_at: 2020-05-22 00:48:28.432946+00:00
+    name: "Requ\xEDnoa"
+    identifier: ''
+    classification: comuna
+    parent: 569
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 583
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.440153+00:00
+    updated_at: 2020-05-22 00:48:28.440153+00:00
+    name: '16'
+    identifier: ''
+    classification: distrito
+    parent: 568
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 584
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.444123+00:00
+    updated_at: 2020-05-22 00:48:28.444123+00:00
+    name: Chimbarongo
+    identifier: ''
+    classification: comuna
+    parent: 583
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 585
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.451134+00:00
+    updated_at: 2020-05-22 00:48:28.451134+00:00
+    name: Las Cabras
+    identifier: ''
+    classification: comuna
+    parent: 583
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 586
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.458275+00:00
+    updated_at: 2020-05-22 00:48:28.458275+00:00
+    name: Peumo
+    identifier: ''
+    classification: comuna
+    parent: 583
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 587
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.466412+00:00
+    updated_at: 2020-05-22 00:48:28.466412+00:00
+    name: Pichidegua
+    identifier: ''
+    classification: comuna
+    parent: 583
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 588
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.476205+00:00
+    updated_at: 2020-05-22 00:48:28.476205+00:00
+    name: San Fernando
+    identifier: ''
+    classification: comuna
+    parent: 583
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 589
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.484374+00:00
+    updated_at: 2020-05-22 00:48:28.484374+00:00
+    name: San Vicente
+    identifier: ''
+    classification: comuna
+    parent: 583
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 590
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.492451+00:00
+    updated_at: 2020-05-22 00:48:28.492451+00:00
+    name: "Ch\xE9pica"
+    identifier: ''
+    classification: comuna
+    parent: 583
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 591
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.500309+00:00
+    updated_at: 2020-05-22 00:48:28.500309+00:00
+    name: La Estrella
+    identifier: ''
+    classification: comuna
+    parent: 583
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 592
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.507707+00:00
+    updated_at: 2020-05-22 00:48:28.507707+00:00
+    name: Litueche
+    identifier: ''
+    classification: comuna
+    parent: 583
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 593
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.515516+00:00
+    updated_at: 2020-05-22 00:48:28.515516+00:00
+    name: Lolol
+    identifier: ''
+    classification: comuna
+    parent: 583
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 594
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.523594+00:00
+    updated_at: 2020-05-22 00:48:28.523594+00:00
+    name: Marchihue
+    identifier: ''
+    classification: comuna
+    parent: 583
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 595
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.531224+00:00
+    updated_at: 2020-05-22 00:48:28.531224+00:00
+    name: Nancagua
+    identifier: ''
+    classification: comuna
+    parent: 583
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 596
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.538397+00:00
+    updated_at: 2020-05-22 00:48:28.538397+00:00
+    name: Navidad
+    identifier: ''
+    classification: comuna
+    parent: 583
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 597
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.544718+00:00
+    updated_at: 2020-05-22 00:48:28.544718+00:00
+    name: Palmilla
+    identifier: ''
+    classification: comuna
+    parent: 583
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 598
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.550601+00:00
+    updated_at: 2020-05-22 00:48:28.550601+00:00
+    name: Paredones
+    identifier: ''
+    classification: comuna
+    parent: 583
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 599
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.556526+00:00
+    updated_at: 2020-05-22 00:48:28.556526+00:00
+    name: Peralillo
+    identifier: ''
+    classification: comuna
+    parent: 583
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 600
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.565110+00:00
+    updated_at: 2020-05-22 00:48:28.565110+00:00
+    name: Pichilemu
+    identifier: ''
+    classification: comuna
+    parent: 583
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 601
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.572480+00:00
+    updated_at: 2020-05-22 00:48:28.572480+00:00
+    name: Placilla
+    identifier: ''
+    classification: comuna
+    parent: 583
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 602
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.580022+00:00
+    updated_at: 2020-05-22 00:48:28.580022+00:00
+    name: Pumanque
+    identifier: ''
+    classification: comuna
+    parent: 583
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 603
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.587503+00:00
+    updated_at: 2020-05-22 00:48:28.587503+00:00
+    name: Santa Cruz
+    identifier: ''
+    classification: comuna
+    parent: 583
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 604
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.591297+00:00
+    updated_at: 2020-05-22 00:48:28.591297+00:00
+    name: Maule
+    identifier: ''
+    classification: region
+    parent: null
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 605
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.595446+00:00
+    updated_at: 2020-05-22 00:48:28.595446+00:00
+    name: IX Maule
+    identifier: ''
+    classification: circunscripcion
+    parent: 604
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 606
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.599346+00:00
+    updated_at: 2020-05-22 00:48:28.599346+00:00
+    name: '17'
+    identifier: ''
+    classification: distrito
+    parent: 605
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 607
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.603409+00:00
+    updated_at: 2020-05-22 00:48:28.603409+00:00
+    name: "Curic\xF3"
+    identifier: ''
+    classification: comuna
+    parent: 606
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 608
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.610342+00:00
+    updated_at: 2020-05-22 00:48:28.610342+00:00
+    name: "Huala\xF1\xE9"
+    identifier: ''
+    classification: comuna
+    parent: 606
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 609
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.617314+00:00
+    updated_at: 2020-05-22 00:48:28.617314+00:00
+    name: "Licant\xE9n"
+    identifier: ''
+    classification: comuna
+    parent: 606
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 610
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.624218+00:00
+    updated_at: 2020-05-22 00:48:28.624218+00:00
+    name: Molina
+    identifier: ''
+    classification: comuna
+    parent: 606
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 611
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.631409+00:00
+    updated_at: 2020-05-22 00:48:28.631409+00:00
+    name: Rauco
+    identifier: ''
+    classification: comuna
+    parent: 606
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 612
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.638298+00:00
+    updated_at: 2020-05-22 00:48:28.638298+00:00
+    name: Romeral
+    identifier: ''
+    classification: comuna
+    parent: 606
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 613
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.645283+00:00
+    updated_at: 2020-05-22 00:48:28.645283+00:00
+    name: Sagrada Familia
+    identifier: ''
+    classification: comuna
+    parent: 606
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 614
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.652078+00:00
+    updated_at: 2020-05-22 00:48:28.652078+00:00
+    name: Teno
+    identifier: ''
+    classification: comuna
+    parent: 606
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 615
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.660728+00:00
+    updated_at: 2020-05-22 00:48:28.660728+00:00
+    name: "Vichuqu\xE9n"
+    identifier: ''
+    classification: comuna
+    parent: 606
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 616
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.668717+00:00
+    updated_at: 2020-05-22 00:48:28.668717+00:00
+    name: Talca
+    identifier: ''
+    classification: comuna
+    parent: 606
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 617
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.675769+00:00
+    updated_at: 2020-05-22 00:48:28.675769+00:00
+    name: "Constituci\xF3n"
+    identifier: ''
+    classification: comuna
+    parent: 606
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 618
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.682696+00:00
+    updated_at: 2020-05-22 00:48:28.682696+00:00
+    name: Curepto
+    identifier: ''
+    classification: comuna
+    parent: 606
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 619
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.689885+00:00
+    updated_at: 2020-05-22 00:48:28.689885+00:00
+    name: Empedrado
+    identifier: ''
+    classification: comuna
+    parent: 606
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 620
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.696783+00:00
+    updated_at: 2020-05-22 00:48:28.696783+00:00
+    name: Maule
+    identifier: ''
+    classification: comuna
+    parent: 606
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 621
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.704945+00:00
+    updated_at: 2020-05-22 00:48:28.704945+00:00
+    name: Pelarco
+    identifier: ''
+    classification: comuna
+    parent: 606
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 622
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.711799+00:00
+    updated_at: 2020-05-22 00:48:28.711799+00:00
+    name: Pencahue
+    identifier: ''
+    classification: comuna
+    parent: 606
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 623
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.718903+00:00
+    updated_at: 2020-05-22 00:48:28.718903+00:00
+    name: "R\xEDo Claro"
+    identifier: ''
+    classification: comuna
+    parent: 606
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 624
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.725380+00:00
+    updated_at: 2020-05-22 00:48:28.725380+00:00
+    name: San Clemente
+    identifier: ''
+    classification: comuna
+    parent: 606
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 625
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.732685+00:00
+    updated_at: 2020-05-22 00:48:28.732685+00:00
+    name: San Rafael
+    identifier: ''
+    classification: comuna
+    parent: 606
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 626
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.738628+00:00
+    updated_at: 2020-05-22 00:48:28.738628+00:00
+    name: '18'
+    identifier: ''
+    classification: distrito
+    parent: 605
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 627
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.742511+00:00
+    updated_at: 2020-05-22 00:48:28.742511+00:00
+    name: "Colb\xFAn"
+    identifier: ''
+    classification: comuna
+    parent: 626
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 628
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.749327+00:00
+    updated_at: 2020-05-22 00:48:28.749327+00:00
+    name: Linares
+    identifier: ''
+    classification: comuna
+    parent: 626
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 629
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.755854+00:00
+    updated_at: 2020-05-22 00:48:28.755854+00:00
+    name: San Javier
+    identifier: ''
+    classification: comuna
+    parent: 626
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 630
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.762644+00:00
+    updated_at: 2020-05-22 00:48:28.762644+00:00
+    name: Villa Alegre
+    identifier: ''
+    classification: comuna
+    parent: 626
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 631
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.771368+00:00
+    updated_at: 2020-05-22 00:48:28.771368+00:00
+    name: Yerbas Buenas
+    identifier: ''
+    classification: comuna
+    parent: 626
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 632
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.779108+00:00
+    updated_at: 2020-05-22 00:48:28.779108+00:00
+    name: Cauquenes
+    identifier: ''
+    classification: comuna
+    parent: 626
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 633
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.786764+00:00
+    updated_at: 2020-05-22 00:48:28.786764+00:00
+    name: Chanco
+    identifier: ''
+    classification: comuna
+    parent: 626
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 634
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.794126+00:00
+    updated_at: 2020-05-22 00:48:28.794126+00:00
+    name: "Longav\xED"
+    identifier: ''
+    classification: comuna
+    parent: 626
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 635
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.801575+00:00
+    updated_at: 2020-05-22 00:48:28.801575+00:00
+    name: Parral
+    identifier: ''
+    classification: comuna
+    parent: 626
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 636
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.808609+00:00
+    updated_at: 2020-05-22 00:48:28.808609+00:00
+    name: Pelluhue
+    identifier: ''
+    classification: comuna
+    parent: 626
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 637
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.815456+00:00
+    updated_at: 2020-05-22 00:48:28.815456+00:00
+    name: Retiro
+    identifier: ''
+    classification: comuna
+    parent: 626
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 638
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.819115+00:00
+    updated_at: 2020-05-22 00:48:28.819115+00:00
+    name: "Biob\xEDo"
+    identifier: ''
+    classification: region
+    parent: null
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 639
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.822684+00:00
+    updated_at: 2020-05-22 00:48:28.822684+00:00
+    name: "X Biob\xEDo"
+    identifier: ''
+    classification: circunscripcion
+    parent: 638
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 640
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.826436+00:00
+    updated_at: 2020-05-22 00:48:28.826436+00:00
+    name: '19'
+    identifier: ''
+    classification: distrito
+    parent: 639
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 641
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.830305+00:00
+    updated_at: 2020-05-22 00:48:28.830305+00:00
+    name: Bulnes
+    identifier: ''
+    classification: comuna
+    parent: 640
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 642
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.837259+00:00
+    updated_at: 2020-05-22 00:48:28.837259+00:00
+    name: Cabrero
+    identifier: ''
+    classification: comuna
+    parent: 640
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 643
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.843952+00:00
+    updated_at: 2020-05-22 00:48:28.843952+00:00
+    name: Cobquecura
+    identifier: ''
+    classification: comuna
+    parent: 640
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 644
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.851000+00:00
+    updated_at: 2020-05-22 00:48:28.851000+00:00
+    name: Coelemu
+    identifier: ''
+    classification: comuna
+    parent: 640
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 645
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.858425+00:00
+    updated_at: 2020-05-22 00:48:28.858425+00:00
+    name: "\xD1iqu\xE9n"
+    identifier: ''
+    classification: comuna
+    parent: 640
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 646
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.867328+00:00
+    updated_at: 2020-05-22 00:48:28.867328+00:00
+    name: Portezuelo
+    identifier: ''
+    classification: comuna
+    parent: 640
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 647
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.875804+00:00
+    updated_at: 2020-05-22 00:48:28.875804+00:00
+    name: "Quill\xF3n"
+    identifier: ''
+    classification: comuna
+    parent: 640
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 648
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.883314+00:00
+    updated_at: 2020-05-22 00:48:28.883314+00:00
+    name: Quirihue
+    identifier: ''
+    classification: comuna
+    parent: 640
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 649
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.891121+00:00
+    updated_at: 2020-05-22 00:48:28.891121+00:00
+    name: Ninhue
+    identifier: ''
+    classification: comuna
+    parent: 640
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 650
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.898624+00:00
+    updated_at: 2020-05-22 00:48:28.898624+00:00
+    name: "R\xE1nquil"
+    identifier: ''
+    classification: comuna
+    parent: 640
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 651
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.905979+00:00
+    updated_at: 2020-05-22 00:48:28.905979+00:00
+    name: San Carlos
+    identifier: ''
+    classification: comuna
+    parent: 640
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 652
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.913456+00:00
+    updated_at: 2020-05-22 00:48:28.913456+00:00
+    name: "San Fabi\xE1n"
+    identifier: ''
+    classification: comuna
+    parent: 640
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 653
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.920385+00:00
+    updated_at: 2020-05-22 00:48:28.920385+00:00
+    name: "San Nicol\xE1s"
+    identifier: ''
+    classification: comuna
+    parent: 640
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 654
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.927353+00:00
+    updated_at: 2020-05-22 00:48:28.927353+00:00
+    name: Treguaco
+    identifier: ''
+    classification: comuna
+    parent: 640
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 655
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.934795+00:00
+    updated_at: 2020-05-22 00:48:28.934795+00:00
+    name: Yumbel
+    identifier: ''
+    classification: comuna
+    parent: 640
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 656
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.941673+00:00
+    updated_at: 2020-05-22 00:48:28.941673+00:00
+    name: "Chill\xE1n"
+    identifier: ''
+    classification: comuna
+    parent: 640
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 657
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.948652+00:00
+    updated_at: 2020-05-22 00:48:28.948652+00:00
+    name: "Chill\xE1n Viejo"
+    identifier: ''
+    classification: comuna
+    parent: 640
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 658
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.955649+00:00
+    updated_at: 2020-05-22 00:48:28.955649+00:00
+    name: Coihueco
+    identifier: ''
+    classification: comuna
+    parent: 640
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 659
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.962713+00:00
+    updated_at: 2020-05-22 00:48:28.962713+00:00
+    name: El Carmen
+    identifier: ''
+    classification: comuna
+    parent: 640
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 660
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.969367+00:00
+    updated_at: 2020-05-22 00:48:28.969367+00:00
+    name: Pemuco
+    identifier: ''
+    classification: comuna
+    parent: 640
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 661
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.976301+00:00
+    updated_at: 2020-05-22 00:48:28.976301+00:00
+    name: Pinto
+    identifier: ''
+    classification: comuna
+    parent: 640
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 662
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.983379+00:00
+    updated_at: 2020-05-22 00:48:28.983379+00:00
+    name: San Ignacio
+    identifier: ''
+    classification: comuna
+    parent: 640
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 663
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.990402+00:00
+    updated_at: 2020-05-22 00:48:28.990402+00:00
+    name: Yungay
+    identifier: ''
+    classification: comuna
+    parent: 640
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 664
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:28.996249+00:00
+    updated_at: 2020-05-22 00:48:28.996249+00:00
+    name: '20'
+    identifier: ''
+    classification: distrito
+    parent: 639
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 665
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.000231+00:00
+    updated_at: 2020-05-22 00:48:29.000231+00:00
+    name: "Hualp\xE9n"
+    identifier: ''
+    classification: comuna
+    parent: 664
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 666
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.007783+00:00
+    updated_at: 2020-05-22 00:48:29.007783+00:00
+    name: Talcahuano
+    identifier: ''
+    classification: comuna
+    parent: 664
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 667
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.014809+00:00
+    updated_at: 2020-05-22 00:48:29.014809+00:00
+    name: Chiguayante
+    identifier: ''
+    classification: comuna
+    parent: 664
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 668
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.021741+00:00
+    updated_at: 2020-05-22 00:48:29.021741+00:00
+    name: "Concepci\xF3n"
+    identifier: ''
+    classification: comuna
+    parent: 664
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 669
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.028518+00:00
+    updated_at: 2020-05-22 00:48:29.028518+00:00
+    name: San Pedro de la Paz
+    identifier: ''
+    classification: comuna
+    parent: 664
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 670
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.034828+00:00
+    updated_at: 2020-05-22 00:48:29.034828+00:00
+    name: Coronel
+    identifier: ''
+    classification: comuna
+    parent: 664
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 671
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.041317+00:00
+    updated_at: 2020-05-22 00:48:29.041317+00:00
+    name: Florida
+    identifier: ''
+    classification: comuna
+    parent: 664
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 672
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.047271+00:00
+    updated_at: 2020-05-22 00:48:29.047271+00:00
+    name: Hualqui
+    identifier: ''
+    classification: comuna
+    parent: 664
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 673
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.053693+00:00
+    updated_at: 2020-05-22 00:48:29.053693+00:00
+    name: Penco
+    identifier: ''
+    classification: comuna
+    parent: 664
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 674
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.060644+00:00
+    updated_at: 2020-05-22 00:48:29.060644+00:00
+    name: Santa Juana
+    identifier: ''
+    classification: comuna
+    parent: 664
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 675
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.067533+00:00
+    updated_at: 2020-05-22 00:48:29.067533+00:00
+    name: "Tom\xE9"
+    identifier: ''
+    classification: comuna
+    parent: 664
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 676
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.073010+00:00
+    updated_at: 2020-05-22 00:48:29.073010+00:00
+    name: '21'
+    identifier: ''
+    classification: distrito
+    parent: 639
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 677
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.076890+00:00
+    updated_at: 2020-05-22 00:48:29.076890+00:00
+    name: Arauco
+    identifier: ''
+    classification: comuna
+    parent: 676
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 678
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.083749+00:00
+    updated_at: 2020-05-22 00:48:29.083749+00:00
+    name: "Ca\xF1ete"
+    identifier: ''
+    classification: comuna
+    parent: 676
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 679
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.090751+00:00
+    updated_at: 2020-05-22 00:48:29.090751+00:00
+    name: Contulmo
+    identifier: ''
+    classification: comuna
+    parent: 676
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 680
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.097489+00:00
+    updated_at: 2020-05-22 00:48:29.097489+00:00
+    name: Curanilahue
+    identifier: ''
+    classification: comuna
+    parent: 676
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 681
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.103899+00:00
+    updated_at: 2020-05-22 00:48:29.103899+00:00
+    name: "Los \xC1lamos"
+    identifier: ''
+    classification: comuna
+    parent: 676
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 682
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.110333+00:00
+    updated_at: 2020-05-22 00:48:29.110333+00:00
+    name: Lebu
+    identifier: ''
+    classification: comuna
+    parent: 676
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 683
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.117213+00:00
+    updated_at: 2020-05-22 00:48:29.117213+00:00
+    name: Lota
+    identifier: ''
+    classification: comuna
+    parent: 676
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 684
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.124009+00:00
+    updated_at: 2020-05-22 00:48:29.124009+00:00
+    name: "Tir\xFAa"
+    identifier: ''
+    classification: comuna
+    parent: 676
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 685
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.130652+00:00
+    updated_at: 2020-05-22 00:48:29.130652+00:00
+    name: "Alto Biob\xEDo"
+    identifier: ''
+    classification: comuna
+    parent: 676
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 686
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.140360+00:00
+    updated_at: 2020-05-22 00:48:29.140360+00:00
+    name: Antuco
+    identifier: ''
+    classification: comuna
+    parent: 676
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 687
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.147881+00:00
+    updated_at: 2020-05-22 00:48:29.147881+00:00
+    name: Laja
+    identifier: ''
+    classification: comuna
+    parent: 676
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 688
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.154846+00:00
+    updated_at: 2020-05-22 00:48:29.154846+00:00
+    name: "Los \xC1ngeles"
+    identifier: ''
+    classification: comuna
+    parent: 676
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 689
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.161792+00:00
+    updated_at: 2020-05-22 00:48:29.161792+00:00
+    name: "Mulch\xE9n"
+    identifier: ''
+    classification: comuna
+    parent: 676
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 690
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.168692+00:00
+    updated_at: 2020-05-22 00:48:29.168692+00:00
+    name: Nacimiento
+    identifier: ''
+    classification: comuna
+    parent: 676
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 691
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.175776+00:00
+    updated_at: 2020-05-22 00:48:29.175776+00:00
+    name: Negrete
+    identifier: ''
+    classification: comuna
+    parent: 676
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 692
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.182540+00:00
+    updated_at: 2020-05-22 00:48:29.182540+00:00
+    name: Quilaco
+    identifier: ''
+    classification: comuna
+    parent: 676
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 693
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.188996+00:00
+    updated_at: 2020-05-22 00:48:29.188996+00:00
+    name: Quilleco
+    identifier: ''
+    classification: comuna
+    parent: 676
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 694
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.196064+00:00
+    updated_at: 2020-05-22 00:48:29.196064+00:00
+    name: San Rosendo
+    identifier: ''
+    classification: comuna
+    parent: 676
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 695
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.202941+00:00
+    updated_at: 2020-05-22 00:48:29.202941+00:00
+    name: "Santa B\xE1rbara"
+    identifier: ''
+    classification: comuna
+    parent: 676
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 696
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.209915+00:00
+    updated_at: 2020-05-22 00:48:29.209915+00:00
+    name: Tucapel
+    identifier: ''
+    classification: comuna
+    parent: 676
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 697
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.213717+00:00
+    updated_at: 2020-05-22 00:48:29.213717+00:00
+    name: "Araucan\xEDa"
+    identifier: ''
+    classification: region
+    parent: null
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 698
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.217600+00:00
+    updated_at: 2020-05-22 00:48:29.217600+00:00
+    name: "XI Araucan\xEDa"
+    identifier: ''
+    classification: circunscripcion
+    parent: 697
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 699
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.221627+00:00
+    updated_at: 2020-05-22 00:48:29.221627+00:00
+    name: '22'
+    identifier: ''
+    classification: distrito
+    parent: 698
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 700
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.225439+00:00
+    updated_at: 2020-05-22 00:48:29.225439+00:00
+    name: Angol
+    identifier: ''
+    classification: comuna
+    parent: 699
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 701
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.232359+00:00
+    updated_at: 2020-05-22 00:48:29.232359+00:00
+    name: Collipulli
+    identifier: ''
+    classification: comuna
+    parent: 699
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 702
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.239273+00:00
+    updated_at: 2020-05-22 00:48:29.239273+00:00
+    name: Ercilla
+    identifier: ''
+    classification: comuna
+    parent: 699
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 703
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.246178+00:00
+    updated_at: 2020-05-22 00:48:29.246178+00:00
+    name: Los Sauces
+    identifier: ''
+    classification: comuna
+    parent: 699
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 704
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.253850+00:00
+    updated_at: 2020-05-22 00:48:29.253850+00:00
+    name: Lumaco
+    identifier: ''
+    classification: comuna
+    parent: 699
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 705
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.260926+00:00
+    updated_at: 2020-05-22 00:48:29.260926+00:00
+    name: "Pur\xE9n"
+    identifier: ''
+    classification: comuna
+    parent: 699
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 706
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.268168+00:00
+    updated_at: 2020-05-22 00:48:29.268168+00:00
+    name: Renaico
+    identifier: ''
+    classification: comuna
+    parent: 699
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 707
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.275295+00:00
+    updated_at: 2020-05-22 00:48:29.275295+00:00
+    name: "Traigu\xE9n"
+    identifier: ''
+    classification: comuna
+    parent: 699
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 708
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.282400+00:00
+    updated_at: 2020-05-22 00:48:29.282400+00:00
+    name: "Curacaut\xEDn"
+    identifier: ''
+    classification: comuna
+    parent: 699
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 709
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.289403+00:00
+    updated_at: 2020-05-22 00:48:29.289403+00:00
+    name: Galvarino
+    identifier: ''
+    classification: comuna
+    parent: 699
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 710
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.296381+00:00
+    updated_at: 2020-05-22 00:48:29.296381+00:00
+    name: Lautaro
+    identifier: ''
+    classification: comuna
+    parent: 699
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 711
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.303308+00:00
+    updated_at: 2020-05-22 00:48:29.303308+00:00
+    name: Lonquimay
+    identifier: ''
+    classification: comuna
+    parent: 699
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 712
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.310247+00:00
+    updated_at: 2020-05-22 00:48:29.310247+00:00
+    name: Melipeuco
+    identifier: ''
+    classification: comuna
+    parent: 699
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 713
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.317185+00:00
+    updated_at: 2020-05-22 00:48:29.317185+00:00
+    name: Perquenco
+    identifier: ''
+    classification: comuna
+    parent: 699
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 714
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.324168+00:00
+    updated_at: 2020-05-22 00:48:29.324168+00:00
+    name: Victoria
+    identifier: ''
+    classification: comuna
+    parent: 699
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 715
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.330671+00:00
+    updated_at: 2020-05-22 00:48:29.330671+00:00
+    name: "Vilc\xFAn"
+    identifier: ''
+    classification: comuna
+    parent: 699
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 716
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.335960+00:00
+    updated_at: 2020-05-22 00:48:29.335960+00:00
+    name: '23'
+    identifier: ''
+    classification: distrito
+    parent: 698
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 717
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.339790+00:00
+    updated_at: 2020-05-22 00:48:29.339790+00:00
+    name: Padre Las Casas
+    identifier: ''
+    classification: comuna
+    parent: 716
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 718
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.346241+00:00
+    updated_at: 2020-05-22 00:48:29.346241+00:00
+    name: Temuco
+    identifier: ''
+    classification: comuna
+    parent: 716
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 719
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.352866+00:00
+    updated_at: 2020-05-22 00:48:29.352866+00:00
+    name: Carahue
+    identifier: ''
+    classification: comuna
+    parent: 716
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 720
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.360079+00:00
+    updated_at: 2020-05-22 00:48:29.360079+00:00
+    name: Cholchol
+    identifier: ''
+    classification: comuna
+    parent: 716
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 721
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.367174+00:00
+    updated_at: 2020-05-22 00:48:29.367174+00:00
+    name: Freire
+    identifier: ''
+    classification: comuna
+    parent: 716
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 722
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.373878+00:00
+    updated_at: 2020-05-22 00:48:29.373878+00:00
+    name: Nueva Imperial
+    identifier: ''
+    classification: comuna
+    parent: 716
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 723
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.379820+00:00
+    updated_at: 2020-05-22 00:48:29.379820+00:00
+    name: "Pitrufqu\xE9n"
+    identifier: ''
+    classification: comuna
+    parent: 716
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 724
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.385787+00:00
+    updated_at: 2020-05-22 00:48:29.385787+00:00
+    name: Saavedra
+    identifier: ''
+    classification: comuna
+    parent: 716
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 725
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.391744+00:00
+    updated_at: 2020-05-22 00:48:29.391744+00:00
+    name: Teodoro Schmidt
+    identifier: ''
+    classification: comuna
+    parent: 716
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 726
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.399311+00:00
+    updated_at: 2020-05-22 00:48:29.399311+00:00
+    name: Cunco
+    identifier: ''
+    classification: comuna
+    parent: 716
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 727
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.406310+00:00
+    updated_at: 2020-05-22 00:48:29.406310+00:00
+    name: Curarrehue
+    identifier: ''
+    classification: comuna
+    parent: 716
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 728
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.413237+00:00
+    updated_at: 2020-05-22 00:48:29.413237+00:00
+    name: Gorbea
+    identifier: ''
+    classification: comuna
+    parent: 716
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 729
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.420101+00:00
+    updated_at: 2020-05-22 00:48:29.420101+00:00
+    name: Loncoche
+    identifier: ''
+    classification: comuna
+    parent: 716
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 730
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.427131+00:00
+    updated_at: 2020-05-22 00:48:29.427131+00:00
+    name: "Puc\xF3n"
+    identifier: ''
+    classification: comuna
+    parent: 716
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 731
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.433838+00:00
+    updated_at: 2020-05-22 00:48:29.433838+00:00
+    name: "Tolt\xE9n"
+    identifier: ''
+    classification: comuna
+    parent: 716
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 732
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.440112+00:00
+    updated_at: 2020-05-22 00:48:29.440112+00:00
+    name: Villarrica
+    identifier: ''
+    classification: comuna
+    parent: 716
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 733
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.443652+00:00
+    updated_at: 2020-05-22 00:48:29.443652+00:00
+    name: "Los R\xEDos"
+    identifier: ''
+    classification: region
+    parent: null
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 734
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.447511+00:00
+    updated_at: 2020-05-22 00:48:29.447511+00:00
+    name: "XII Los R\xEDos"
+    identifier: ''
+    classification: circunscripcion
+    parent: 733
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 735
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.451410+00:00
+    updated_at: 2020-05-22 00:48:29.451410+00:00
+    name: '24'
+    identifier: ''
+    classification: distrito
+    parent: 734
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 736
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.455346+00:00
+    updated_at: 2020-05-22 00:48:29.455346+00:00
+    name: Corral
+    identifier: ''
+    classification: comuna
+    parent: 735
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 737
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.462271+00:00
+    updated_at: 2020-05-22 00:48:29.462271+00:00
+    name: Lanco
+    identifier: ''
+    classification: comuna
+    parent: 735
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 738
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.470098+00:00
+    updated_at: 2020-05-22 00:48:29.470098+00:00
+    name: "M\xE1fil"
+    identifier: ''
+    classification: comuna
+    parent: 735
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 739
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.477698+00:00
+    updated_at: 2020-05-22 00:48:29.477698+00:00
+    name: Mariquina
+    identifier: ''
+    classification: comuna
+    parent: 735
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 740
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.484919+00:00
+    updated_at: 2020-05-22 00:48:29.484919+00:00
+    name: Valdivia
+    identifier: ''
+    classification: comuna
+    parent: 735
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 741
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.491904+00:00
+    updated_at: 2020-05-22 00:48:29.491904+00:00
+    name: Futrono
+    identifier: ''
+    classification: comuna
+    parent: 735
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 742
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.498337+00:00
+    updated_at: 2020-05-22 00:48:29.498337+00:00
+    name: "La Uni\xF3n"
+    identifier: ''
+    classification: comuna
+    parent: 735
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 743
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.504929+00:00
+    updated_at: 2020-05-22 00:48:29.504929+00:00
+    name: Lago Ranco
+    identifier: ''
+    classification: comuna
+    parent: 735
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 744
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.512083+00:00
+    updated_at: 2020-05-22 00:48:29.512083+00:00
+    name: Los Lagos
+    identifier: ''
+    classification: comuna
+    parent: 735
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 745
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.519525+00:00
+    updated_at: 2020-05-22 00:48:29.519525+00:00
+    name: Paillaco
+    identifier: ''
+    classification: comuna
+    parent: 735
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 746
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.526453+00:00
+    updated_at: 2020-05-22 00:48:29.526453+00:00
+    name: Panguipulli
+    identifier: ''
+    classification: comuna
+    parent: 735
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 747
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.533417+00:00
+    updated_at: 2020-05-22 00:48:29.533417+00:00
+    name: "R\xEDo Bueno"
+    identifier: ''
+    classification: comuna
+    parent: 735
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 748
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.537362+00:00
+    updated_at: 2020-05-22 00:48:29.537362+00:00
+    name: Los Lagos
+    identifier: ''
+    classification: region
+    parent: null
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 749
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.543113+00:00
+    updated_at: 2020-05-22 00:48:29.543113+00:00
+    name: XIII Los Lagos
+    identifier: ''
+    classification: circunscripcion
+    parent: 748
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 750
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.547274+00:00
+    updated_at: 2020-05-22 00:48:29.547274+00:00
+    name: '25'
+    identifier: ''
+    classification: distrito
+    parent: 749
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 751
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.551482+00:00
+    updated_at: 2020-05-22 00:48:29.551482+00:00
+    name: Osorno
+    identifier: ''
+    classification: comuna
+    parent: 750
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 752
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.558604+00:00
+    updated_at: 2020-05-22 00:48:29.558604+00:00
+    name: San Juan de la Costa
+    identifier: ''
+    classification: comuna
+    parent: 750
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 753
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.565523+00:00
+    updated_at: 2020-05-22 00:48:29.565523+00:00
+    name: San Pablo
+    identifier: ''
+    classification: comuna
+    parent: 750
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 754
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.572899+00:00
+    updated_at: 2020-05-22 00:48:29.572899+00:00
+    name: Fresia
+    identifier: ''
+    classification: comuna
+    parent: 750
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 755
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.579801+00:00
+    updated_at: 2020-05-22 00:48:29.579801+00:00
+    name: Frutillar
+    identifier: ''
+    classification: comuna
+    parent: 750
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 756
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.586736+00:00
+    updated_at: 2020-05-22 00:48:29.586736+00:00
+    name: Llanquihue
+    identifier: ''
+    classification: comuna
+    parent: 750
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 757
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.594193+00:00
+    updated_at: 2020-05-22 00:48:29.594193+00:00
+    name: Los Muermos
+    identifier: ''
+    classification: comuna
+    parent: 750
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 758
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.601201+00:00
+    updated_at: 2020-05-22 00:48:29.601201+00:00
+    name: Puerto Octay
+    identifier: ''
+    classification: comuna
+    parent: 750
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 759
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.608103+00:00
+    updated_at: 2020-05-22 00:48:29.608103+00:00
+    name: Puerto Varas
+    identifier: ''
+    classification: comuna
+    parent: 750
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 760
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.615044+00:00
+    updated_at: 2020-05-22 00:48:29.615044+00:00
+    name: Puyehue
+    identifier: ''
+    classification: comuna
+    parent: 750
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 761
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.621999+00:00
+    updated_at: 2020-05-22 00:48:29.621999+00:00
+    name: Purranque
+    identifier: ''
+    classification: comuna
+    parent: 750
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 762
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.629114+00:00
+    updated_at: 2020-05-22 00:48:29.629114+00:00
+    name: "R\xEDo Negro"
+    identifier: ''
+    classification: comuna
+    parent: 750
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 763
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.634979+00:00
+    updated_at: 2020-05-22 00:48:29.634979+00:00
+    name: '26'
+    identifier: ''
+    classification: distrito
+    parent: 749
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 764
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.638800+00:00
+    updated_at: 2020-05-22 00:48:29.638800+00:00
+    name: Calbuco
+    identifier: ''
+    classification: comuna
+    parent: 763
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 765
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.645781+00:00
+    updated_at: 2020-05-22 00:48:29.645781+00:00
+    name: "Cocham\xF3"
+    identifier: ''
+    classification: comuna
+    parent: 763
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 766
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.652657+00:00
+    updated_at: 2020-05-22 00:48:29.652657+00:00
+    name: "Maull\xEDn"
+    identifier: ''
+    classification: comuna
+    parent: 763
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 767
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.659492+00:00
+    updated_at: 2020-05-22 00:48:29.659492+00:00
+    name: Puerto Montt
+    identifier: ''
+    classification: comuna
+    parent: 763
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 768
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.666400+00:00
+    updated_at: 2020-05-22 00:48:29.666400+00:00
+    name: Ancud
+    identifier: ''
+    classification: comuna
+    parent: 763
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 769
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.673317+00:00
+    updated_at: 2020-05-22 00:48:29.673317+00:00
+    name: Castro
+    identifier: ''
+    classification: comuna
+    parent: 763
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 770
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.679850+00:00
+    updated_at: 2020-05-22 00:48:29.679850+00:00
+    name: "Chait\xE9n"
+    identifier: ''
+    classification: comuna
+    parent: 763
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 771
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.686064+00:00
+    updated_at: 2020-05-22 00:48:29.686064+00:00
+    name: Chonchi
+    identifier: ''
+    classification: comuna
+    parent: 763
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 772
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.692104+00:00
+    updated_at: 2020-05-22 00:48:29.692104+00:00
+    name: "Curaco de V\xE9lez"
+    identifier: ''
+    classification: comuna
+    parent: 763
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 773
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.698198+00:00
+    updated_at: 2020-05-22 00:48:29.698198+00:00
+    name: Dalcahue
+    identifier: ''
+    classification: comuna
+    parent: 763
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 774
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.705914+00:00
+    updated_at: 2020-05-22 00:48:29.705914+00:00
+    name: "Futaleuf\xFA"
+    identifier: ''
+    classification: comuna
+    parent: 763
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 775
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.713057+00:00
+    updated_at: 2020-05-22 00:48:29.713057+00:00
+    name: "Hualaihu\xE9"
+    identifier: ''
+    classification: comuna
+    parent: 763
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 776
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.719958+00:00
+    updated_at: 2020-05-22 00:48:29.719958+00:00
+    name: Palena
+    identifier: ''
+    classification: comuna
+    parent: 763
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 777
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.726875+00:00
+    updated_at: 2020-05-22 00:48:29.726875+00:00
+    name: "Puqueld\xF3n"
+    identifier: ''
+    classification: comuna
+    parent: 763
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 778
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.733195+00:00
+    updated_at: 2020-05-22 00:48:29.733195+00:00
+    name: "Queil\xE9n"
+    identifier: ''
+    classification: comuna
+    parent: 763
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 779
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.739142+00:00
+    updated_at: 2020-05-22 00:48:29.739142+00:00
+    name: "Quell\xF3n"
+    identifier: ''
+    classification: comuna
+    parent: 763
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 780
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.745046+00:00
+    updated_at: 2020-05-22 00:48:29.745046+00:00
+    name: Quemchi
+    identifier: ''
+    classification: comuna
+    parent: 763
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 781
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.750984+00:00
+    updated_at: 2020-05-22 00:48:29.750984+00:00
+    name: Quinchao
+    identifier: ''
+    classification: comuna
+    parent: 763
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 782
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.754535+00:00
+    updated_at: 2020-05-22 00:48:29.754535+00:00
+    name: "Ays\xE9n"
+    identifier: ''
+    classification: region
+    parent: null
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 783
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.758745+00:00
+    updated_at: 2020-05-22 00:48:29.758745+00:00
+    name: "XIV Ays\xE9n"
+    identifier: ''
+    classification: circunscripcion
+    parent: 782
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 784
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.762530+00:00
+    updated_at: 2020-05-22 00:48:29.762530+00:00
+    name: '27'
+    identifier: ''
+    classification: distrito
+    parent: 783
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 785
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.766907+00:00
+    updated_at: 2020-05-22 00:48:29.766907+00:00
+    name: "Ays\xE9n"
+    identifier: ''
+    classification: comuna
+    parent: 784
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 786
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.775260+00:00
+    updated_at: 2020-05-22 00:48:29.775260+00:00
+    name: Cisnes
+    identifier: ''
+    classification: comuna
+    parent: 784
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 787
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.782730+00:00
+    updated_at: 2020-05-22 00:48:29.782730+00:00
+    name: Chile Chico
+    identifier: ''
+    classification: comuna
+    parent: 784
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 788
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.789677+00:00
+    updated_at: 2020-05-22 00:48:29.789677+00:00
+    name: Coyhaique
+    identifier: ''
+    classification: comuna
+    parent: 784
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 789
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.796621+00:00
+    updated_at: 2020-05-22 00:48:29.796621+00:00
+    name: Cochrane
+    identifier: ''
+    classification: comuna
+    parent: 784
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 790
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.803511+00:00
+    updated_at: 2020-05-22 00:48:29.803511+00:00
+    name: Guaitecas
+    identifier: ''
+    classification: comuna
+    parent: 784
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 791
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.810494+00:00
+    updated_at: 2020-05-22 00:48:29.810494+00:00
+    name: Lago Verde
+    identifier: ''
+    classification: comuna
+    parent: 784
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 792
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.817276+00:00
+    updated_at: 2020-05-22 00:48:29.817276+00:00
+    name: "R\xEDo Ib\xE1\xF1ez"
+    identifier: ''
+    classification: comuna
+    parent: 784
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 793
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.823216+00:00
+    updated_at: 2020-05-22 00:48:29.823216+00:00
+    name: O'Higgins
+    identifier: ''
+    classification: comuna
+    parent: 784
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 794
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.830371+00:00
+    updated_at: 2020-05-22 00:48:29.830371+00:00
+    name: Tortel
+    identifier: ''
+    classification: comuna
+    parent: 784
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 795
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.834279+00:00
+    updated_at: 2020-05-22 00:48:29.834279+00:00
+    name: "Magallanes y la Ant\xE1rtica Chilena"
+    identifier: ''
+    classification: region
+    parent: null
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 796
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.838232+00:00
+    updated_at: 2020-05-22 00:48:29.838232+00:00
+    name: XV Magallanes
+    identifier: ''
+    classification: circunscripcion
+    parent: 795
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 797
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.841615+00:00
+    updated_at: 2020-05-22 00:48:29.841615+00:00
+    name: '28'
+    identifier: ''
+    classification: distrito
+    parent: 796
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 798
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.844998+00:00
+    updated_at: 2020-05-22 00:48:29.844998+00:00
+    name: "Ant\xE1rtica"
+    identifier: ''
+    classification: comuna
+    parent: 797
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 799
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.851029+00:00
+    updated_at: 2020-05-22 00:48:29.851029+00:00
+    name: Cabo de Hornos
+    identifier: ''
+    classification: comuna
+    parent: 797
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 800
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.856902+00:00
+    updated_at: 2020-05-22 00:48:29.856902+00:00
+    name: Laguna Blanca
+    identifier: ''
+    classification: comuna
+    parent: 797
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 801
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.863535+00:00
+    updated_at: 2020-05-22 00:48:29.863535+00:00
+    name: Natales
+    identifier: ''
+    classification: comuna
+    parent: 797
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 802
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.870475+00:00
+    updated_at: 2020-05-22 00:48:29.870475+00:00
+    name: Porvenir
+    identifier: ''
+    classification: comuna
+    parent: 797
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 803
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.877372+00:00
+    updated_at: 2020-05-22 00:48:29.877372+00:00
+    name: Primavera
+    identifier: ''
+    classification: comuna
+    parent: 797
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 804
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.884777+00:00
+    updated_at: 2020-05-22 00:48:29.884777+00:00
+    name: Punta Arenas
+    identifier: ''
+    classification: comuna
+    parent: 797
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 805
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.891787+00:00
+    updated_at: 2020-05-22 00:48:29.891787+00:00
+    name: "R\xEDo Verde"
+    identifier: ''
+    classification: comuna
+    parent: 797
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 806
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.898894+00:00
+    updated_at: 2020-05-22 00:48:29.898894+00:00
+    name: San Gregorio
+    identifier: ''
+    classification: comuna
+    parent: 797
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 807
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.905854+00:00
+    updated_at: 2020-05-22 00:48:29.905854+00:00
+    name: Timaukel
+    identifier: ''
+    classification: comuna
+    parent: 797
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 808
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:48:29.912804+00:00
+    updated_at: 2020-05-22 00:48:29.912804+00:00
+    name: Torres del Paine
+    identifier: ''
+    classification: comuna
+    parent: 797
+    geom: null
+    inhabitants: null
+- model: popolo.area
+  pk: 809
+  fields:
+    content_type: null
+    object_id: null
+    start_date: null
+    end_date: null
+    created_at: 2020-05-22 00:56:07.196746+00:00
+    updated_at: 2020-05-22 01:01:12.524045+00:00
+    name: Chile
+    identifier: ''
+    classification: pais
+    parent: null
+    geom: null
+    inhabitants: null
+- model: elections.area
+  pk: 405
+  fields:
+    slug: arica-y-parinacota
+- model: elections.area
+  pk: 406
+  fields:
+    slug: i-arica-y-parinacota
+- model: elections.area
+  pk: 407
+  fields:
+    slug: '1'
+- model: elections.area
+  pk: 408
+  fields:
+    slug: arica
+- model: elections.area
+  pk: 409
+  fields:
+    slug: camarones
+- model: elections.area
+  pk: 410
+  fields:
+    slug: general-lagos
+- model: elections.area
+  pk: 411
+  fields:
+    slug: putre
+- model: elections.area
+  pk: 412
+  fields:
+    slug: tarapaca
+- model: elections.area
+  pk: 413
+  fields:
+    slug: ii-tarapaca
+- model: elections.area
+  pk: 414
+  fields:
+    slug: '2'
+- model: elections.area
+  pk: 415
+  fields:
+    slug: alto-hospicio
+- model: elections.area
+  pk: 416
+  fields:
+    slug: camina
+- model: elections.area
+  pk: 417
+  fields:
+    slug: colchane
+- model: elections.area
+  pk: 418
+  fields:
+    slug: huara
+- model: elections.area
+  pk: 419
+  fields:
+    slug: iquique
+- model: elections.area
+  pk: 420
+  fields:
+    slug: pica
+- model: elections.area
+  pk: 421
+  fields:
+    slug: pozo-almonte
+- model: elections.area
+  pk: 422
+  fields:
+    slug: antofagasta
+- model: elections.area
+  pk: 423
+  fields:
+    slug: iii-antofagasta
+- model: elections.area
+  pk: 424
+  fields:
+    slug: '3'
+- model: elections.area
+  pk: 425
+  fields:
+    slug: calama
+- model: elections.area
+  pk: 426
+  fields:
+    slug: maria-elena
+- model: elections.area
+  pk: 427
+  fields:
+    slug: ollague
+- model: elections.area
+  pk: 428
+  fields:
+    slug: san-pedro-de-atacama
+- model: elections.area
+  pk: 429
+  fields:
+    slug: tocopilla
+- model: elections.area
+  pk: 430
+  fields:
+    slug: antofagasta-2
+- model: elections.area
+  pk: 431
+  fields:
+    slug: mejillones
+- model: elections.area
+  pk: 432
+  fields:
+    slug: sierra-gorda
+- model: elections.area
+  pk: 433
+  fields:
+    slug: taltal
+- model: elections.area
+  pk: 434
+  fields:
+    slug: atacama
+- model: elections.area
+  pk: 435
+  fields:
+    slug: iv-atacama
+- model: elections.area
+  pk: 436
+  fields:
+    slug: '4'
+- model: elections.area
+  pk: 437
+  fields:
+    slug: chanaral
+- model: elections.area
+  pk: 438
+  fields:
+    slug: copiapo
+- model: elections.area
+  pk: 439
+  fields:
+    slug: diego-de-almagro
+- model: elections.area
+  pk: 440
+  fields:
+    slug: alto-del-carmen
+- model: elections.area
+  pk: 441
+  fields:
+    slug: caldera
+- model: elections.area
+  pk: 442
+  fields:
+    slug: huasco
+- model: elections.area
+  pk: 443
+  fields:
+    slug: freirina
+- model: elections.area
+  pk: 444
+  fields:
+    slug: tierra-amarilla
+- model: elections.area
+  pk: 445
+  fields:
+    slug: vallenar
+- model: elections.area
+  pk: 446
+  fields:
+    slug: coquimbo
+- model: elections.area
+  pk: 447
+  fields:
+    slug: v-coquimbo
+- model: elections.area
+  pk: 448
+  fields:
+    slug: '5'
+- model: elections.area
+  pk: 449
+  fields:
+    slug: andacollo
+- model: elections.area
+  pk: 450
+  fields:
+    slug: la-higuera
+- model: elections.area
+  pk: 451
+  fields:
+    slug: la-serena
+- model: elections.area
+  pk: 452
+  fields:
+    slug: paihuano
+- model: elections.area
+  pk: 453
+  fields:
+    slug: vicuna
+- model: elections.area
+  pk: 454
+  fields:
+    slug: coquimbo-2
+- model: elections.area
+  pk: 455
+  fields:
+    slug: ovalle
+- model: elections.area
+  pk: 456
+  fields:
+    slug: rio-hurtado
+- model: elections.area
+  pk: 457
+  fields:
+    slug: canela
+- model: elections.area
+  pk: 458
+  fields:
+    slug: combarbala
+- model: elections.area
+  pk: 459
+  fields:
+    slug: illapel
+- model: elections.area
+  pk: 460
+  fields:
+    slug: los-vilos
+- model: elections.area
+  pk: 461
+  fields:
+    slug: monte-patria
+- model: elections.area
+  pk: 462
+  fields:
+    slug: punitaqui
+- model: elections.area
+  pk: 463
+  fields:
+    slug: salamanca
+- model: elections.area
+  pk: 464
+  fields:
+    slug: valparaiso
+- model: elections.area
+  pk: 465
+  fields:
+    slug: vi-valparaiso
+- model: elections.area
+  pk: 466
+  fields:
+    slug: '6'
+- model: elections.area
+  pk: 467
+  fields:
+    slug: cabildo
+- model: elections.area
+  pk: 468
+  fields:
+    slug: la-calera
+- model: elections.area
+  pk: 469
+  fields:
+    slug: hijuelas
+- model: elections.area
+  pk: 470
+  fields:
+    slug: la-cruz
+- model: elections.area
+  pk: 471
+  fields:
+    slug: la-ligua
+- model: elections.area
+  pk: 472
+  fields:
+    slug: nogales
+- model: elections.area
+  pk: 473
+  fields:
+    slug: papudo
+- model: elections.area
+  pk: 474
+  fields:
+    slug: petorca
+- model: elections.area
+  pk: 475
+  fields:
+    slug: puchuncavi
+- model: elections.area
+  pk: 476
+  fields:
+    slug: quillota
+- model: elections.area
+  pk: 477
+  fields:
+    slug: quintero
+- model: elections.area
+  pk: 478
+  fields:
+    slug: zapallar
+- model: elections.area
+  pk: 479
+  fields:
+    slug: calle-larga
+- model: elections.area
+  pk: 480
+  fields:
+    slug: catemu
+- model: elections.area
+  pk: 481
+  fields:
+    slug: llaillay
+- model: elections.area
+  pk: 482
+  fields:
+    slug: los-andes
+- model: elections.area
+  pk: 483
+  fields:
+    slug: panquehue
+- model: elections.area
+  pk: 484
+  fields:
+    slug: putaendo
+- model: elections.area
+  pk: 485
+  fields:
+    slug: rinconada
+- model: elections.area
+  pk: 486
+  fields:
+    slug: san-esteban
+- model: elections.area
+  pk: 487
+  fields:
+    slug: san-felipe
+- model: elections.area
+  pk: 488
+  fields:
+    slug: santa-maria
+- model: elections.area
+  pk: 489
+  fields:
+    slug: limache
+- model: elections.area
+  pk: 490
+  fields:
+    slug: olmue
+- model: elections.area
+  pk: 491
+  fields:
+    slug: quilpue
+- model: elections.area
+  pk: 492
+  fields:
+    slug: villa-alemana
+- model: elections.area
+  pk: 493
+  fields:
+    slug: '7'
+- model: elections.area
+  pk: 494
+  fields:
+    slug: isla-de-pascua
+- model: elections.area
+  pk: 495
+  fields:
+    slug: juan-fernandez
+- model: elections.area
+  pk: 496
+  fields:
+    slug: valparaiso-2
+- model: elections.area
+  pk: 497
+  fields:
+    slug: concon
+- model: elections.area
+  pk: 498
+  fields:
+    slug: vina-del-mar
+- model: elections.area
+  pk: 499
+  fields:
+    slug: algarrobo
+- model: elections.area
+  pk: 500
+  fields:
+    slug: cartagena
+- model: elections.area
+  pk: 501
+  fields:
+    slug: casablanca
+- model: elections.area
+  pk: 502
+  fields:
+    slug: el-quisco
+- model: elections.area
+  pk: 503
+  fields:
+    slug: el-tabo
+- model: elections.area
+  pk: 504
+  fields:
+    slug: san-antonio
+- model: elections.area
+  pk: 505
+  fields:
+    slug: santo-domingo
+- model: elections.area
+  pk: 506
+  fields:
+    slug: metropolitanade-santiago
+- model: elections.area
+  pk: 507
+  fields:
+    slug: vii-metropolitana
+- model: elections.area
+  pk: 508
+  fields:
+    slug: '8'
+- model: elections.area
+  pk: 509
+  fields:
+    slug: colina
+- model: elections.area
+  pk: 510
+  fields:
+    slug: lampa
+- model: elections.area
+  pk: 511
+  fields:
+    slug: quilicura
+- model: elections.area
+  pk: 512
+  fields:
+    slug: pudahuel
+- model: elections.area
+  pk: 513
+  fields:
+    slug: tiltil
+- model: elections.area
+  pk: 514
+  fields:
+    slug: cerrillos
+- model: elections.area
+  pk: 515
+  fields:
+    slug: estacion-central
+- model: elections.area
+  pk: 516
+  fields:
+    slug: maipu
+- model: elections.area
+  pk: 517
+  fields:
+    slug: '9'
+- model: elections.area
+  pk: 518
+  fields:
+    slug: conchali
+- model: elections.area
+  pk: 519
+  fields:
+    slug: huechuraba
+- model: elections.area
+  pk: 520
+  fields:
+    slug: renca
+- model: elections.area
+  pk: 521
+  fields:
+    slug: cerro-navia
+- model: elections.area
+  pk: 522
+  fields:
+    slug: lo-prado
+- model: elections.area
+  pk: 523
+  fields:
+    slug: quinta-normal
+- model: elections.area
+  pk: 524
+  fields:
+    slug: independencia
+- model: elections.area
+  pk: 525
+  fields:
+    slug: recoleta
+- model: elections.area
+  pk: 526
+  fields:
+    slug: '10'
+- model: elections.area
+  pk: 527
+  fields:
+    slug: santiago
+- model: elections.area
+  pk: 528
+  fields:
+    slug: nunoa
+- model: elections.area
+  pk: 529
+  fields:
+    slug: providencia
+- model: elections.area
+  pk: 530
+  fields:
+    slug: la-granja
+- model: elections.area
+  pk: 531
+  fields:
+    slug: macul
+- model: elections.area
+  pk: 532
+  fields:
+    slug: san-joaquin
+- model: elections.area
+  pk: 533
+  fields:
+    slug: '11'
+- model: elections.area
+  pk: 534
+  fields:
+    slug: las-condes
+- model: elections.area
+  pk: 535
+  fields:
+    slug: lo-barnechea
+- model: elections.area
+  pk: 536
+  fields:
+    slug: vitacura
+- model: elections.area
+  pk: 537
+  fields:
+    slug: la-reina
+- model: elections.area
+  pk: 538
+  fields:
+    slug: penalolen
+- model: elections.area
+  pk: 539
+  fields:
+    slug: '12'
+- model: elections.area
+  pk: 540
+  fields:
+    slug: la-florida
+- model: elections.area
+  pk: 541
+  fields:
+    slug: puente-alto
+- model: elections.area
+  pk: 542
+  fields:
+    slug: la-pintana
+- model: elections.area
+  pk: 543
+  fields:
+    slug: pirque
+- model: elections.area
+  pk: 544
+  fields:
+    slug: san-jose-de-maipo
+- model: elections.area
+  pk: 545
+  fields:
+    slug: '13'
+- model: elections.area
+  pk: 546
+  fields:
+    slug: el-bosque
+- model: elections.area
+  pk: 547
+  fields:
+    slug: la-cisterna
+- model: elections.area
+  pk: 548
+  fields:
+    slug: san-ramon
+- model: elections.area
+  pk: 549
+  fields:
+    slug: lo-espejo
+- model: elections.area
+  pk: 550
+  fields:
+    slug: pedro-aguirre-cerda
+- model: elections.area
+  pk: 551
+  fields:
+    slug: san-miguel
+- model: elections.area
+  pk: 552
+  fields:
+    slug: '14'
+- model: elections.area
+  pk: 553
+  fields:
+    slug: buin
+- model: elections.area
+  pk: 554
+  fields:
+    slug: calera-de-tango
+- model: elections.area
+  pk: 555
+  fields:
+    slug: paine
+- model: elections.area
+  pk: 556
+  fields:
+    slug: san-bernardo
+- model: elections.area
+  pk: 557
+  fields:
+    slug: alhue
+- model: elections.area
+  pk: 558
+  fields:
+    slug: curacavi
+- model: elections.area
+  pk: 559
+  fields:
+    slug: el-monte
+- model: elections.area
+  pk: 560
+  fields:
+    slug: isla-de-maipo
+- model: elections.area
+  pk: 561
+  fields:
+    slug: maria-pinto
+- model: elections.area
+  pk: 562
+  fields:
+    slug: melipilla
+- model: elections.area
+  pk: 563
+  fields:
+    slug: padre-hurtado
+- model: elections.area
+  pk: 564
+  fields:
+    slug: penaflor
+- model: elections.area
+  pk: 565
+  fields:
+    slug: san-pedro
+- model: elections.area
+  pk: 566
+  fields:
+    slug: talagante
+- model: elections.area
+  pk: 567
+  fields:
+    slug: ohiggins
+- model: elections.area
+  pk: 568
+  fields:
+    slug: viii-ohiggins
+- model: elections.area
+  pk: 569
+  fields:
+    slug: '15'
+- model: elections.area
+  pk: 570
+  fields:
+    slug: rancagua
+- model: elections.area
+  pk: 571
+  fields:
+    slug: codegua
+- model: elections.area
+  pk: 572
+  fields:
+    slug: coinco
+- model: elections.area
+  pk: 573
+  fields:
+    slug: coltauco
+- model: elections.area
+  pk: 574
+  fields:
+    slug: donihue
+- model: elections.area
+  pk: 575
+  fields:
+    slug: graneros
+- model: elections.area
+  pk: 576
+  fields:
+    slug: machali
+- model: elections.area
+  pk: 577
+  fields:
+    slug: malloa
+- model: elections.area
+  pk: 578
+  fields:
+    slug: mostazal
+- model: elections.area
+  pk: 579
+  fields:
+    slug: olivar
+- model: elections.area
+  pk: 580
+  fields:
+    slug: quinta-de-tilcoco
+- model: elections.area
+  pk: 581
+  fields:
+    slug: rengo
+- model: elections.area
+  pk: 582
+  fields:
+    slug: requinoa
+- model: elections.area
+  pk: 583
+  fields:
+    slug: '16'
+- model: elections.area
+  pk: 584
+  fields:
+    slug: chimbarongo
+- model: elections.area
+  pk: 585
+  fields:
+    slug: las-cabras
+- model: elections.area
+  pk: 586
+  fields:
+    slug: peumo
+- model: elections.area
+  pk: 587
+  fields:
+    slug: pichidegua
+- model: elections.area
+  pk: 588
+  fields:
+    slug: san-fernando
+- model: elections.area
+  pk: 589
+  fields:
+    slug: san-vicente
+- model: elections.area
+  pk: 590
+  fields:
+    slug: chepica
+- model: elections.area
+  pk: 591
+  fields:
+    slug: la-estrella
+- model: elections.area
+  pk: 592
+  fields:
+    slug: litueche
+- model: elections.area
+  pk: 593
+  fields:
+    slug: lolol
+- model: elections.area
+  pk: 594
+  fields:
+    slug: marchihue
+- model: elections.area
+  pk: 595
+  fields:
+    slug: nancagua
+- model: elections.area
+  pk: 596
+  fields:
+    slug: navidad
+- model: elections.area
+  pk: 597
+  fields:
+    slug: palmilla
+- model: elections.area
+  pk: 598
+  fields:
+    slug: paredones
+- model: elections.area
+  pk: 599
+  fields:
+    slug: peralillo
+- model: elections.area
+  pk: 600
+  fields:
+    slug: pichilemu
+- model: elections.area
+  pk: 601
+  fields:
+    slug: placilla
+- model: elections.area
+  pk: 602
+  fields:
+    slug: pumanque
+- model: elections.area
+  pk: 603
+  fields:
+    slug: santa-cruz
+- model: elections.area
+  pk: 604
+  fields:
+    slug: maule
+- model: elections.area
+  pk: 605
+  fields:
+    slug: ix-maule
+- model: elections.area
+  pk: 606
+  fields:
+    slug: '17'
+- model: elections.area
+  pk: 607
+  fields:
+    slug: curico
+- model: elections.area
+  pk: 608
+  fields:
+    slug: hualane
+- model: elections.area
+  pk: 609
+  fields:
+    slug: licanten
+- model: elections.area
+  pk: 610
+  fields:
+    slug: molina
+- model: elections.area
+  pk: 611
+  fields:
+    slug: rauco
+- model: elections.area
+  pk: 612
+  fields:
+    slug: romeral
+- model: elections.area
+  pk: 613
+  fields:
+    slug: sagrada-familia
+- model: elections.area
+  pk: 614
+  fields:
+    slug: teno
+- model: elections.area
+  pk: 615
+  fields:
+    slug: vichuquen
+- model: elections.area
+  pk: 616
+  fields:
+    slug: talca
+- model: elections.area
+  pk: 617
+  fields:
+    slug: constitucion
+- model: elections.area
+  pk: 618
+  fields:
+    slug: curepto
+- model: elections.area
+  pk: 619
+  fields:
+    slug: empedrado
+- model: elections.area
+  pk: 620
+  fields:
+    slug: maule-2
+- model: elections.area
+  pk: 621
+  fields:
+    slug: pelarco
+- model: elections.area
+  pk: 622
+  fields:
+    slug: pencahue
+- model: elections.area
+  pk: 623
+  fields:
+    slug: rio-claro
+- model: elections.area
+  pk: 624
+  fields:
+    slug: san-clemente
+- model: elections.area
+  pk: 625
+  fields:
+    slug: san-rafael
+- model: elections.area
+  pk: 626
+  fields:
+    slug: '18'
+- model: elections.area
+  pk: 627
+  fields:
+    slug: colbun
+- model: elections.area
+  pk: 628
+  fields:
+    slug: linares
+- model: elections.area
+  pk: 629
+  fields:
+    slug: san-javier
+- model: elections.area
+  pk: 630
+  fields:
+    slug: villa-alegre
+- model: elections.area
+  pk: 631
+  fields:
+    slug: yerbas-buenas
+- model: elections.area
+  pk: 632
+  fields:
+    slug: cauquenes
+- model: elections.area
+  pk: 633
+  fields:
+    slug: chanco
+- model: elections.area
+  pk: 634
+  fields:
+    slug: longavi
+- model: elections.area
+  pk: 635
+  fields:
+    slug: parral
+- model: elections.area
+  pk: 636
+  fields:
+    slug: pelluhue
+- model: elections.area
+  pk: 637
+  fields:
+    slug: retiro
+- model: elections.area
+  pk: 638
+  fields:
+    slug: biobio
+- model: elections.area
+  pk: 639
+  fields:
+    slug: x-biobio
+- model: elections.area
+  pk: 640
+  fields:
+    slug: '19'
+- model: elections.area
+  pk: 641
+  fields:
+    slug: bulnes
+- model: elections.area
+  pk: 642
+  fields:
+    slug: cabrero
+- model: elections.area
+  pk: 643
+  fields:
+    slug: cobquecura
+- model: elections.area
+  pk: 644
+  fields:
+    slug: coelemu
+- model: elections.area
+  pk: 645
+  fields:
+    slug: niquen
+- model: elections.area
+  pk: 646
+  fields:
+    slug: portezuelo
+- model: elections.area
+  pk: 647
+  fields:
+    slug: quillon
+- model: elections.area
+  pk: 648
+  fields:
+    slug: quirihue
+- model: elections.area
+  pk: 649
+  fields:
+    slug: ninhue
+- model: elections.area
+  pk: 650
+  fields:
+    slug: ranquil
+- model: elections.area
+  pk: 651
+  fields:
+    slug: san-carlos
+- model: elections.area
+  pk: 652
+  fields:
+    slug: san-fabian
+- model: elections.area
+  pk: 653
+  fields:
+    slug: san-nicolas
+- model: elections.area
+  pk: 654
+  fields:
+    slug: treguaco
+- model: elections.area
+  pk: 655
+  fields:
+    slug: yumbel
+- model: elections.area
+  pk: 656
+  fields:
+    slug: chillan
+- model: elections.area
+  pk: 657
+  fields:
+    slug: chillan-viejo
+- model: elections.area
+  pk: 658
+  fields:
+    slug: coihueco
+- model: elections.area
+  pk: 659
+  fields:
+    slug: el-carmen
+- model: elections.area
+  pk: 660
+  fields:
+    slug: pemuco
+- model: elections.area
+  pk: 661
+  fields:
+    slug: pinto
+- model: elections.area
+  pk: 662
+  fields:
+    slug: san-ignacio
+- model: elections.area
+  pk: 663
+  fields:
+    slug: yungay
+- model: elections.area
+  pk: 664
+  fields:
+    slug: '20'
+- model: elections.area
+  pk: 665
+  fields:
+    slug: hualpen
+- model: elections.area
+  pk: 666
+  fields:
+    slug: talcahuano
+- model: elections.area
+  pk: 667
+  fields:
+    slug: chiguayante
+- model: elections.area
+  pk: 668
+  fields:
+    slug: concepcion
+- model: elections.area
+  pk: 669
+  fields:
+    slug: san-pedro-de-la-paz
+- model: elections.area
+  pk: 670
+  fields:
+    slug: coronel
+- model: elections.area
+  pk: 671
+  fields:
+    slug: florida
+- model: elections.area
+  pk: 672
+  fields:
+    slug: hualqui
+- model: elections.area
+  pk: 673
+  fields:
+    slug: penco
+- model: elections.area
+  pk: 674
+  fields:
+    slug: santa-juana
+- model: elections.area
+  pk: 675
+  fields:
+    slug: tome
+- model: elections.area
+  pk: 676
+  fields:
+    slug: '21'
+- model: elections.area
+  pk: 677
+  fields:
+    slug: arauco
+- model: elections.area
+  pk: 678
+  fields:
+    slug: canete
+- model: elections.area
+  pk: 679
+  fields:
+    slug: contulmo
+- model: elections.area
+  pk: 680
+  fields:
+    slug: curanilahue
+- model: elections.area
+  pk: 681
+  fields:
+    slug: los-alamos
+- model: elections.area
+  pk: 682
+  fields:
+    slug: lebu
+- model: elections.area
+  pk: 683
+  fields:
+    slug: lota
+- model: elections.area
+  pk: 684
+  fields:
+    slug: tirua
+- model: elections.area
+  pk: 685
+  fields:
+    slug: alto-biobio
+- model: elections.area
+  pk: 686
+  fields:
+    slug: antuco
+- model: elections.area
+  pk: 687
+  fields:
+    slug: laja
+- model: elections.area
+  pk: 688
+  fields:
+    slug: los-angeles
+- model: elections.area
+  pk: 689
+  fields:
+    slug: mulchen
+- model: elections.area
+  pk: 690
+  fields:
+    slug: nacimiento
+- model: elections.area
+  pk: 691
+  fields:
+    slug: negrete
+- model: elections.area
+  pk: 692
+  fields:
+    slug: quilaco
+- model: elections.area
+  pk: 693
+  fields:
+    slug: quilleco
+- model: elections.area
+  pk: 694
+  fields:
+    slug: san-rosendo
+- model: elections.area
+  pk: 695
+  fields:
+    slug: santa-barbara
+- model: elections.area
+  pk: 696
+  fields:
+    slug: tucapel
+- model: elections.area
+  pk: 697
+  fields:
+    slug: araucania
+- model: elections.area
+  pk: 698
+  fields:
+    slug: xi-araucania
+- model: elections.area
+  pk: 699
+  fields:
+    slug: '22'
+- model: elections.area
+  pk: 700
+  fields:
+    slug: angol
+- model: elections.area
+  pk: 701
+  fields:
+    slug: collipulli
+- model: elections.area
+  pk: 702
+  fields:
+    slug: ercilla
+- model: elections.area
+  pk: 703
+  fields:
+    slug: los-sauces
+- model: elections.area
+  pk: 704
+  fields:
+    slug: lumaco
+- model: elections.area
+  pk: 705
+  fields:
+    slug: puren
+- model: elections.area
+  pk: 706
+  fields:
+    slug: renaico
+- model: elections.area
+  pk: 707
+  fields:
+    slug: traiguen
+- model: elections.area
+  pk: 708
+  fields:
+    slug: curacautin
+- model: elections.area
+  pk: 709
+  fields:
+    slug: galvarino
+- model: elections.area
+  pk: 710
+  fields:
+    slug: lautaro
+- model: elections.area
+  pk: 711
+  fields:
+    slug: lonquimay
+- model: elections.area
+  pk: 712
+  fields:
+    slug: melipeuco
+- model: elections.area
+  pk: 713
+  fields:
+    slug: perquenco
+- model: elections.area
+  pk: 714
+  fields:
+    slug: victoria
+- model: elections.area
+  pk: 715
+  fields:
+    slug: vilcun
+- model: elections.area
+  pk: 716
+  fields:
+    slug: '23'
+- model: elections.area
+  pk: 717
+  fields:
+    slug: padre-las-casas
+- model: elections.area
+  pk: 718
+  fields:
+    slug: temuco
+- model: elections.area
+  pk: 719
+  fields:
+    slug: carahue
+- model: elections.area
+  pk: 720
+  fields:
+    slug: cholchol
+- model: elections.area
+  pk: 721
+  fields:
+    slug: freire
+- model: elections.area
+  pk: 722
+  fields:
+    slug: nueva-imperial
+- model: elections.area
+  pk: 723
+  fields:
+    slug: pitrufquen
+- model: elections.area
+  pk: 724
+  fields:
+    slug: saavedra
+- model: elections.area
+  pk: 725
+  fields:
+    slug: teodoro-schmidt
+- model: elections.area
+  pk: 726
+  fields:
+    slug: cunco
+- model: elections.area
+  pk: 727
+  fields:
+    slug: curarrehue
+- model: elections.area
+  pk: 728
+  fields:
+    slug: gorbea
+- model: elections.area
+  pk: 729
+  fields:
+    slug: loncoche
+- model: elections.area
+  pk: 730
+  fields:
+    slug: pucon
+- model: elections.area
+  pk: 731
+  fields:
+    slug: tolten
+- model: elections.area
+  pk: 732
+  fields:
+    slug: villarrica
+- model: elections.area
+  pk: 733
+  fields:
+    slug: los-rios
+- model: elections.area
+  pk: 734
+  fields:
+    slug: xii-los-rios
+- model: elections.area
+  pk: 735
+  fields:
+    slug: '24'
+- model: elections.area
+  pk: 736
+  fields:
+    slug: corral
+- model: elections.area
+  pk: 737
+  fields:
+    slug: lanco
+- model: elections.area
+  pk: 738
+  fields:
+    slug: mafil
+- model: elections.area
+  pk: 739
+  fields:
+    slug: mariquina
+- model: elections.area
+  pk: 740
+  fields:
+    slug: valdivia
+- model: elections.area
+  pk: 741
+  fields:
+    slug: futrono
+- model: elections.area
+  pk: 742
+  fields:
+    slug: la-union
+- model: elections.area
+  pk: 743
+  fields:
+    slug: lago-ranco
+- model: elections.area
+  pk: 744
+  fields:
+    slug: los-lagos
+- model: elections.area
+  pk: 745
+  fields:
+    slug: paillaco
+- model: elections.area
+  pk: 746
+  fields:
+    slug: panguipulli
+- model: elections.area
+  pk: 747
+  fields:
+    slug: rio-bueno
+- model: elections.area
+  pk: 748
+  fields:
+    slug: los-lagos-2
+- model: elections.area
+  pk: 749
+  fields:
+    slug: xiii-los-lagos
+- model: elections.area
+  pk: 750
+  fields:
+    slug: '25'
+- model: elections.area
+  pk: 751
+  fields:
+    slug: osorno
+- model: elections.area
+  pk: 752
+  fields:
+    slug: san-juan-de-la-costa
+- model: elections.area
+  pk: 753
+  fields:
+    slug: san-pablo
+- model: elections.area
+  pk: 754
+  fields:
+    slug: fresia
+- model: elections.area
+  pk: 755
+  fields:
+    slug: frutillar
+- model: elections.area
+  pk: 756
+  fields:
+    slug: llanquihue
+- model: elections.area
+  pk: 757
+  fields:
+    slug: los-muermos
+- model: elections.area
+  pk: 758
+  fields:
+    slug: puerto-octay
+- model: elections.area
+  pk: 759
+  fields:
+    slug: puerto-varas
+- model: elections.area
+  pk: 760
+  fields:
+    slug: puyehue
+- model: elections.area
+  pk: 761
+  fields:
+    slug: purranque
+- model: elections.area
+  pk: 762
+  fields:
+    slug: rio-negro
+- model: elections.area
+  pk: 763
+  fields:
+    slug: '26'
+- model: elections.area
+  pk: 764
+  fields:
+    slug: calbuco
+- model: elections.area
+  pk: 765
+  fields:
+    slug: cochamo
+- model: elections.area
+  pk: 766
+  fields:
+    slug: maullin
+- model: elections.area
+  pk: 767
+  fields:
+    slug: puerto-montt
+- model: elections.area
+  pk: 768
+  fields:
+    slug: ancud
+- model: elections.area
+  pk: 769
+  fields:
+    slug: castro
+- model: elections.area
+  pk: 770
+  fields:
+    slug: chaiten
+- model: elections.area
+  pk: 771
+  fields:
+    slug: chonchi
+- model: elections.area
+  pk: 772
+  fields:
+    slug: curaco-de-velez
+- model: elections.area
+  pk: 773
+  fields:
+    slug: dalcahue
+- model: elections.area
+  pk: 774
+  fields:
+    slug: futaleufu
+- model: elections.area
+  pk: 775
+  fields:
+    slug: hualaihue
+- model: elections.area
+  pk: 776
+  fields:
+    slug: palena
+- model: elections.area
+  pk: 777
+  fields:
+    slug: puqueldon
+- model: elections.area
+  pk: 778
+  fields:
+    slug: queilen
+- model: elections.area
+  pk: 779
+  fields:
+    slug: quellon
+- model: elections.area
+  pk: 780
+  fields:
+    slug: quemchi
+- model: elections.area
+  pk: 781
+  fields:
+    slug: quinchao
+- model: elections.area
+  pk: 782
+  fields:
+    slug: aysen
+- model: elections.area
+  pk: 783
+  fields:
+    slug: xiv-aysen
+- model: elections.area
+  pk: 784
+  fields:
+    slug: '27'
+- model: elections.area
+  pk: 785
+  fields:
+    slug: aysen-2
+- model: elections.area
+  pk: 786
+  fields:
+    slug: cisnes
+- model: elections.area
+  pk: 787
+  fields:
+    slug: chile-chico
+- model: elections.area
+  pk: 788
+  fields:
+    slug: coyhaique
+- model: elections.area
+  pk: 789
+  fields:
+    slug: cochrane
+- model: elections.area
+  pk: 790
+  fields:
+    slug: guaitecas
+- model: elections.area
+  pk: 791
+  fields:
+    slug: lago-verde
+- model: elections.area
+  pk: 792
+  fields:
+    slug: rio-ibanez
+- model: elections.area
+  pk: 793
+  fields:
+    slug: ohiggins-2
+- model: elections.area
+  pk: 794
+  fields:
+    slug: tortel
+- model: elections.area
+  pk: 795
+  fields:
+    slug: magallanes-y-la-antartica-chilena
+- model: elections.area
+  pk: 796
+  fields:
+    slug: xv-magallanes
+- model: elections.area
+  pk: 797
+  fields:
+    slug: '28'
+- model: elections.area
+  pk: 798
+  fields:
+    slug: antartica
+- model: elections.area
+  pk: 799
+  fields:
+    slug: cabo-de-hornos
+- model: elections.area
+  pk: 800
+  fields:
+    slug: laguna-blanca
+- model: elections.area
+  pk: 801
+  fields:
+    slug: natales
+- model: elections.area
+  pk: 802
+  fields:
+    slug: porvenir
+- model: elections.area
+  pk: 803
+  fields:
+    slug: primavera
+- model: elections.area
+  pk: 804
+  fields:
+    slug: punta-arenas
+- model: elections.area
+  pk: 805
+  fields:
+    slug: rio-verde
+- model: elections.area
+  pk: 806
+  fields:
+    slug: san-gregorio
+- model: elections.area
+  pk: 807
+  fields:
+    slug: timaukel
+- model: elections.area
+  pk: 808
+  fields:
+    slug: torres-del-paine
+- model: elections.area
+  pk: 809
+  fields:
+    slug: chile-pais

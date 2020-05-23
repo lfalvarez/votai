@@ -1,0 +1,104 @@
+{% extends layout %}
+{% load i18n %}
+{% load cache %}
+
+{% block extrajs %}
+$(document).ready(function(){
+	$('#btn-find-soulmate').on('click', function(){
+		var csrftoken = Cookies.get('csrftoken');
+		var questions = $('#form-soulmate :input[name^="question"]');
+		var importances = $('#form-soulmate :checked[name^="importance"]');
+		var answers = $('#form-soulmate :checked[name^="answer"]');
+		var final_data = {}
+		var counter = 0;
+		questions.each(function(index, element){
+			var question_id = $(element).val()
+			var answer = $('#form-soulmate :checked[name="answer-'+question_id+'"]').val();
+			var importance = $('#form-soulmate :checked[name="importance-'+question_id+'"]').val();
+			final_data["question-id-"+counter] = question_id
+			if(answer!=undefined){
+				final_data["question-"+counter] = answer
+			}
+			final_data["importance-"+counter] = importance
+
+			counter++
+		})
+		final_data["csrfmiddlewaretoken"] = csrftoken
+
+		if( questions.length == answers.length ) {
+			$('#btn-find-soulmate').prop('disabled',true);
+			$('#btn-find-soulmate').html('<i class="icon-cogs"></i> {% trans "calculando" %}');
+
+			$.post("{{result_url}}",final_data, function(final_data){
+				$('#question-soulmate').remove();
+				$('.soulmate-header').remove();
+				$('#election').append(final_data);
+				$('html, body').animate({
+					scrollTop: $("#election").offset().top
+				})
+			})
+		} else {
+			$('#msj-alerta').attr('style', 'display:block');
+			$('html, body').animate({
+				scrollTop: $("#election").offset().top
+			})
+		}
+
+		return false;
+	})
+})
+{% endblock extrajs %}
+
+{% block title %} - {{election}} - {% trans "1/2 Naranja"%}{% endblock title%}
+
+{% block last_breadcrumb %}{% trans "1/2 Naranja"%}{% endblock last_breadcrumb %}
+
+{% block tab_soulmate %}class="active"{% endblock %}
+
+{% block mainelection %}
+
+{% cache 500 soulmate_candidate election.id %}
+<!-- soulmate -->
+<div class='soulmate-header'>
+	<h1 class="text-center"><div class="small text-light">Candidatos a {{ election.position }} por {{ election.area }}</div>Encuentra tu 1/2 naranja</h1>
+	<p class="bajada text-center text-width">Lee las preguntas y marca la posición política que te haga sentido, así podremos mostrarte al candidato que más se ajuste a tu forma de pensar</p>
+</div>
+<div id="question-soulmate">
+{% if not election.has_anyone_answered %}
+<div class="alert alert-danger soulmate-header" role="alert">
+	<span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+	Aún no tenemos candidatos que hayan respondido la 1/2 naranja por lo tanto el resultado de tu afinidad será de un 0% con todos, pero siempre puedes <a href="{% url 'help'  %}">Ayudarnos</a></div>
+{% endif %}
+	<div id="msj-alerta" class="alert alert-warning" style="display:none">
+		<strong>{% trans "Atención!" %}</strong> {% trans "Para brindar una mejor respuesta es necesario que respondas todas las preguntas."%}
+	</div>
+	<form id="form-soulmate" role="form">
+	{% for category in election.categories.all %}
+	<div class="text-width">
+			<h2 class="">{{category.name}}</h2>
+			{% for topic in category.topics.all %}
+				<h4 class="question text-dark">{{topic.label}}</h4>
+					<ul class="list-unstyled">
+						{% for position in topic.positions.all %}
+						<li>
+							<label for="answer-{{topic.id}}-{{position.id}}"><input name="answer-{{topic.id}}" value="{{position.id}}" id="answer-{{topic.id}}-{{position.id}}" type="radio"> {{position.label}}</label>
+						</li>
+						{% endfor %}
+						<li><label  for="answer-{{topic.id}}-0"><input name="answer-{{topic.id}}" value="0" id="answer-{{topic.id}}-0" type="radio"> Ninguna de las anteriores</label></li>
+						<hr>
+					</ul>
+			<input type="hidden" name="question-{{topic.id}}" value="{{topic.id}}">
+			{% endfor %}
+	</div>
+	{% endfor %}
+
+	<div class="pull-right">
+		<button type="button" id="btn-find-soulmate" class="btn btn-success" onClick="ga('send', 'event', 'find-soulmate', 'click');"><i class="icon-heart"></i> {% trans "Encontrar mi 1/2 naranja" %}</button>
+	</div>
+	{% csrf_token %}
+		</form>
+</div>
+{% endcache %}
+
+<!-- EOF soulmate -->
+{% endblock mainelection %}

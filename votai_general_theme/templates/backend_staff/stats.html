@@ -1,0 +1,185 @@
+{% extends "backend_base.html" %}
+{% load staticfiles %}
+{% load votainteligente_extras %}
+{% load i18n %}
+{% load thumbnail %}
+{% load bootstrap3 %}
+
+{% block content %}
+<h2>{% trans "Estadisticas" %}</h2>
+
+<h4 class="page-header">{% trans "Otras estadísticas" %}</h4>
+<p>Un total de {{stats.total_candidates}} candidatos.</p>
+<p>Hay un total de: <b>{{stats.likes}}</b> apoyos hechos por <b>{{stats.likers}}</b> ciudadanos.</p>
+
+<h4 class="page-header">Metas</h4>
+<ul>
+  <li><b>{{stats.proposals}}</b>/5000 propuestas ciudadanas.</li>
+  <li><b>{{stats.participation.with_us}}</b>/{{stats.total_candidates}} candidatos.</li>
+  <li><b>{{stats.likes_by_organizations}}</b>/40 apadrinamientos.</li>
+  <li><b>{{stats.local_gatherings}}</b>/300 encuentros ciudadanos.</li>
+  <li><b>{{stats.organizations_online.count}}</b>/300 organizaciones aliadas</li>
+  <li><b>{{stats.candidates_that_have_commited}}</b>/{{stats.total_candidates}} comprometidos (igual queríamos que se comprometiera un 20% no más)</li>
+  <li><b>3</b>/3 alianzas (votita, chile5050, EncuentroMigrantes en Antofa)</li>
+</ul>
+
+<h4 class="page-header">Propuestas por clasificación</h4>
+<div class="table-responsive">
+  <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Categoría</th>
+          <th>Nro de Propuestas</th>
+        </tr>
+      </thead>
+      <tbody>
+      {% for key, count in stats.per_classification_proposals_count.items %}
+        {% if key %}
+        <tr>
+          <td>{{key}}</td>
+          <td>{{count}}</td>
+        </tr>
+        {% endif %}
+      {% endfor %}
+      </tbody>
+    </table>
+</div>
+
+{% comment %}
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Nro</th>
+      <th>Detalle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>{{stats.participation.with_us}}</td>
+      <td>Candidatos</td>
+    </tr>
+    <tr>
+      <td>{{stats.participation.got_email}}</td>
+      <td>Candidatos no conectados</td>
+    </tr>
+    <tr>
+      <td>{{stats.participation.no_contact}}</td>
+      <td>Candidatos sin e-mail</td>
+    </tr>
+    <tr>
+      <td>{{stats.candidates_that_have_12_naranja.count}}</td>
+      <td>Candidatos que han respondido la media naranja</td>
+    </tr>
+    <tr>
+      <td>{{stats.candidates_that_have_12_naranja__alcalde.count}}</td>
+      <td>Candidatos a alcalde que han respondido el media naranja</td>
+    </tr>
+    <tr>
+      <td>{{stats.candidates_that_have_12_naranja__concejal.count}}</td>
+      <td>Candidatos a consejal que han respondido el media naranja</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 class="page-header">Por Alcaldes:</h4>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Nro</th>
+      <th>Detalle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>{{stats.total_candidates_alcalde}}</td>
+      <td>candidatos a alcalde</td>
+    </tr>
+    <tr>
+      <td>{{stats.participation_alcalde.with_us}}</td>
+      <td>candidatos a alcalde activos en la plataforma</td>
+    </tr>
+    <tr>
+      <td>{{stats.participation_alcalde.got_email}}</td>
+      <td>candidatos a alcalde inactivos</td>
+    </tr>
+    <tr>
+      <td>{{stats.participation_alcalde.no_contact}}</td>
+      <td>candidatos a alcalde sin e-mail</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 class="page-header">Por concejal:</h4>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Nro</th>
+      <th>Detalle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>{{stats.total_candidates_concejal}}</td>
+      <td>candidatos a concejal</td>
+    </tr>
+    <tr>
+      <td>{{stats.participation_concejal.with_us}}</td>
+      <td>candidatos a concejal activos en la plataforma</td>
+    </tr>
+    <tr>
+      <td>{{stats.participation_concejal.got_email}}</td>
+      <td>candidatos a concejal inactivos</td>
+    </tr>
+    <tr>
+      <td>{{stats.participation_concejal.no_contact}}</td>
+      <td>candidatos a concejal sin e-mail</td>
+    </tr>
+  </tbody>
+</table>
+{% endcomment %}
+
+<div class="table-responsive">
+  <h4 class="page-header">Organizaciones</h4>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Logo</th>
+        <th>Nombre</th>
+        <th>Usuario</th>
+        <th>Nro Propuestas</th>
+        <th>Nro Apoyos </th>
+        <th>E-mail</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for org in stats.organizations %}
+      <tr {% if org.proposals.count or org.likes.count %}class="success"{% endif %}>
+        <td>
+          {% if org.organization_template.logo %}
+            {% thumbnail org.organization_template.logo "25x25" as im %}
+            <img src="{{ im.url }}" width="{{ im.width }}" height="{{ im.height }}">
+            {% endthumbnail %}
+          {% endif %}
+        </td>
+        <td><a href="{{ org.organization_template.get_absolute_url }}">{{ org.get_full_name }}</a></td>
+        <td>{{ org.profile.user.username }}</td>
+        <td>{{ org.proposals.count }}</td>
+        <td>{{ org.likes.count }}</td>
+        <td>{{org.email}}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+<h4 class="page-header">Compromisos:</h4>
+<p>Hay un total de <b>{{stats.commitments}}</b> compromisos de candidatos con propuestas ciudadanas.</p>
+<p>Estos compromisos corresponden a <b>{{stats.proposals_with_commitments.count}}</b> propuestas.</p>
+<p>Estos compromisos han sido adquiridos por un total de <b>{{stats.candidates_that_have_commited}}</b> candidatos.</p>
+<p>De los cuales <b>{{stats.candidates_that_have_commited_alcalde}}</b> son candidatos a alcalde.</p>
+<p>Y <b>{{stats.candidates_that_have_commited_concejal}}</b> son candidatos al concejo.</p>
+
+{% endblock content %}
+
+{% block extrafooter %}
+{% endblock extrafooter %}
