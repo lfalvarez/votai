@@ -1,6 +1,6 @@
 THEME=None
-POSSIBLE_GENERATING_AREAS_FILTER = 'Comuna'
-FILTERABLE_AREAS_TYPE = ['Comuna']
+POSSIBLE_GENERATING_AREAS_FILTER = 'comuna'
+FILTERABLE_AREAS_TYPE = ['comuna']
 ## No muestres las areas en el wizard de creación de propuestas
 DONT_SHOW_AREAS_IN_PROPOSAL_WIZARD = True
 LIST_ONLY_COMMITED_CANDIDATES = False

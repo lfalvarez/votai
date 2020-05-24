@@ -1,4 +1,3 @@
-# coding=utf-8
 from collections import OrderedDict
 
 from backend_candidate.models import is_candidate
@@ -55,12 +54,8 @@ class ProposalWizardBase(SessionWizardView):
     def done(self, form_list, **kwargs):
         data = {}
         [data.update(form.cleaned_data) for form in form_list]
-        kwargs = {
-            'proposer': self.request.user,
-            'data': data
-        }
+        kwargs = {'proposer': self.request.user, 'data': data, 'area': self.determine_area(data)}
 
-        kwargs['area'] = self.determine_area(data)
         temporary_data = self.model.objects.create(**kwargs)
         context = self.get_context_data(form=None)
         context.update({'popular_proposal': temporary_data,

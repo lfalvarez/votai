@@ -194,4 +194,5 @@ TEST_WITHOUT_MIGRATIONS_COMMAND = 'django_nose.management.commands.test.Command'
 
 CONSTANCE_BACKEND = 'constance.backends.database.DatabaseBackend'
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+LOGIN_REDIRECT_URL = '/perfil_ciudadano/'
 from .votainteligente_settings import *
