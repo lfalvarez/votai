@@ -39,6 +39,6 @@ social-auth-core==3.3.3
 celery==4.4.2
 django-celery-results==1.2.1
 django-el-pagination==3.3.0
-djangorestframework==3.11.0
+djangorestframework==3.11.2
 pytimeparse==1.1.8
 Whoosh==2.7.4
