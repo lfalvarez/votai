@@ -1,4 +1,4 @@
-Django==2.2.7
+Django==2.2.22
 django-model-utils==3.2.0
 Pillow==6.2.1
 django-registration==3.0.1
