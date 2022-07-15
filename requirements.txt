@@ -37,7 +37,7 @@ pybars3==0.9.7
 social-auth-app-django==3.1.0
 social-auth-core==3.3.3
 celery==4.4.2
-django-celery-results==1.2.1
+django-celery-results==2.4.0
 django-el-pagination==3.3.0
 djangorestframework==3.11.0
 pytimeparse==1.1.8
